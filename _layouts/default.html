@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+    {% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
+    {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+
+    <link rel="stylesheet" type="text/css" href="{{ relative }}css/common.css" />
+    <link rel="stylesheet" type="text/css" href="{{ relative }}css/syntax.css" />
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="nav">
+        <a href="{{ relative }}">Home</a>
+        <a href="{{ relative }}courses">Courses</a>
+        <a href="{{ relative }}blog">Blog</a>
+        <a href="{{ relative }}contact">Contact</a>
+      </div>
+      <div id="content">
+        {{ content }}
+      </div>
+      <div id="footer">
+        <p>
+          <a href="http://validator.w3.org/check?uri=referer">Valid HTML</a>
+        </p>
+        <p>
+          This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>
+        </p>
+        <p>
+          <a href="mailto:jagross@unm.edu">Contact Webmaster</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

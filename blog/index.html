@@ -1,0 +1,30 @@
+---
+layout: default
+title: The Well Squared Circle
+---
+
+{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+
+  <header>
+    <h1>{{ page.title }}</h1>
+  </header>
+  <div role="main">
+    <p>
+      You have successfully located my blog! As of now I just have a clever
+      title and a first post, but hopefully it will fill out with time to
+      include some interesting material.
+    </p>
+    <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ relative }}{{ post.url | remove_first: '/' }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+    <p>
+      You can also subscribe to the
+      <a href="{{ relative }}blog/rss.xml">RSS</a> or
+      <a href="{{ relative }}blog/atom.xml">atom</a> feeds.
+    </p>
+  </div>
