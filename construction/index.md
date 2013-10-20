@@ -23,7 +23,9 @@ order to accomplish this I use the pandoc [plugin][pi] provided by David
 Sanson. I am also currently using this [stylesheet][css] from github for syntax
 highlighting. The fix from [this][so] thread allows me to view my pages both
 locally and online, given that my homepage does not reside at the root of the
-domain that is serving it.
+domain that is serving it. For the Atom and
+<dfn title="Rich Site Summary">RSS</dfn> feeds I use templates put together by
+[Dave Coyle][dc].
 
 If there is anything on my site you are curious to see the source for, I have a
 public Git [repository][gh] with all my source files.
@@ -36,4 +38,5 @@ public Git [repository][gh] with all my source files.
 [pi]: https://github.com/dsanson/jekyll-pandoc-plugin "jekyll-pandoc-plugin"
 [css]: http://github.com/mojombo/tpw/tree/master/css/syntax.css "syntax.css"
 [so]: http://stackoverflow.com/questions/7985081/how-to-deploy-a-jekyll-site-locally-with-css-js-and-background-images-included "How to deploy a jekyll site locally with css, js and background images included?"
+[dc]: http://davecoyle.com/tech-notes/jekyll-templates-for-atom-rss/ "Jekyll Templates for Atom, RSS"
 [gh]: https://github.com/jarthurgross/website
