@@ -5,6 +5,15 @@ layout: default
   <header>
     <h1>{{ page.title }}</h1>
     <p id="date">{{ page.date | date: "%Y-%m-%d" }}</p>
+    {% if page.tags != null %}
+    <p id="tags">
+      Tags: 
+      {% for tag in page.tags %}
+        {% if forloop.last and forloop.length > 1 %} and {% endif %}
+          {{tag | downcase}}{% if forloop.last == false and forloop.length > 2 %}, {% endif %}
+      {% endfor %}
+    </p>
+    {% endif %}
   </header>
   <div role="main">
     {{ content }}

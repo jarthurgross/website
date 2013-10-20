@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Gambler's Ruin
+tags:
+- mathematics
+- probability
+- python
 ---
 
 {% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}

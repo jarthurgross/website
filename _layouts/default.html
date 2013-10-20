@@ -7,8 +7,15 @@
 
     <link rel="stylesheet" type="text/css" href="{{ relative }}css/common.css" />
     <link rel="stylesheet" type="text/css" href="{{ relative }}css/syntax.css" />
+    {% for tag in page.tags %}
+      {% if tag == 'mathematics' %}
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      {% endif %}
+    {% endfor %}
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    {% if page.tags != null %}
+    <meta name="keywords" content="{% for tag in page.tags %}{{tag | downcase}}{% if forloop.last == false and forloop.length > 2 %}, {% endif %}{% endfor %}" />
+    {% endif %}
   </head>
   <body>
     <div id="container">
