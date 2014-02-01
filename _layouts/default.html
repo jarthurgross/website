@@ -7,6 +7,8 @@
 
     <link rel="stylesheet" type="text/css" href="{{ relative }}css/common.css" />
     <link rel="stylesheet" type="text/css" href="{{ relative }}css/syntax.css" />
+    <link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
+    <link rel="schema.dc" href="http://purl.org/dc/elements/1.1/" />
     {% for tag in page.tags %}
       {% if tag == 'mathematics' %}
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
@@ -18,27 +20,20 @@
     {% endif %}
     <meta name="language" content="en-US" />
     <meta name="author" content="Jonathan A. Gross, azaghalofbelegost@gmail.com" />
-    <meta property="og:title" content="{{page.title}}" />
-    <meta property="og:url" content="http://www.unm.edu/~jagross{{ page.url }}" />
-    <meta property="og:image" content="http://www.unm.edu/favicon.ico" />
-    <meta property="og:email" content="azaghalofbelegost@gmail.com" />
-    {% if page.article == true %}
-    <meta property="og:type" content="article" />
-    <meta property="og:article:published_time" content="{{ page.date | date: "%Y-%m-%d" }}" />
-    <meta property="og:article:author" content="Jonathan A. Gross" />
-    {% if page.tags != null %}
-    {% for tag in page.tags %}
-    <meta property="og:article:tag" content="{{tag | downcase}}" />
-    {% endfor %}
+    {% if page.description != null %}
+    <meta name="description" content="{{ page.description }}" />
     {% endif %}
+    {% if page.abstract != null %}
+    <meta name="abstract" content="{{ page.abstract }}" />
+    {% endif %}
+    <meta name="dcterms.type" content="Text" />
+    {% if page.article == true %}
+    <meta name="dcterms.date" content="{{ page.date | date: "%Y-%m-%d" }}" />
     <link rel="feed" href="{{ relative }}blog/rss.xml" />
     {% endif %}
-    <meta name="dc.creator" content="Jonathan A. Gross" />
-    {% if page.article == true %}
-    <meta name="dc.date" content="{{ page.date | date: "%Y-%m-%d" }}" />
-    {% endif %}
+    <meta name="dcterms.creator" content="Jonathan A. Gross" />
     <meta name="dc.language" content="en-US" />
-    <meta name="dc.title" content="{{ page.title }}" />
+    <meta name="dcterms.title" content="{{ page.title }}" />
   </head>
   <body>
     <div id="container">

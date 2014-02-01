@@ -4,7 +4,7 @@ layout: nil
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Well Squared Circle</title>
+    <title>The Well-Squared Circle</title>
     <link>http://www.unm.edu/~jagross/blog/</link>
     <atom:link href="http://www.unm.edu/~jagross/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>The Well Squared Circle</description>

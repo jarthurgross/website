@@ -4,7 +4,7 @@ layout: nil
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
-  <title>The Well Squared Circle</title>
+  <title>The Well-Squared Circle</title>
   <link href="http://www.unm.edu/~jagross/blog/"/>
   <link type="application/atom+xml" rel="self" href="http://www.unm.edu/~jagross/blog/atom.xml"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
