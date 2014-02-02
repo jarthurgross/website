@@ -36,7 +36,7 @@
     <meta name="dcterms.title" content="{{ page.title }}" />
   </head>
   <body>
-    <div id="container">
+    <div itemscope itemtype="http://n.whatwg.org/work" id="container">
       <div id="nav">
         <a href="{{ relative }}">Home</a>
         <a href="{{ relative }}courses">Courses</a>
@@ -52,13 +52,7 @@
           <a href="http://validator.w3.org/check?uri=referer">Valid HTML</a>
         </p>
         <p>
-        <span xmlns:dct="http://purl.org/dc/terms/"
-          href="http://purl.org/dc/dcmitype/Text" property="dct:title"
-          rel="dct:type">{{ page.title }}</span> by
-        <a xmlns:cc="http://creativecommons.org/ns#"
-          href="http://www.unm.edu/~jagross" property="cc:attributionName"
-          rel="cc:attributionURL">Jonathan Gross</a> is licensed under a
-        <a rel="license"
+          This work is licensed under a <a itemprop="license"
           href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
         </p>
         <p>
