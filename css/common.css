@@ -21,7 +21,7 @@ figcaption {
 #nav {
   height: 50px;
   background: #000000;
-  margin 0 auto;
+  margin: 0 auto;
 }
 #date {
   color: #777777;
@@ -30,7 +30,7 @@ figcaption {
   color: #777777;
 }
 #footer {
-  float: clear;
+  clear: both;
   color: #ffffff;
   background: #000000;
   text-align: center;
