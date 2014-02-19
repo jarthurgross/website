@@ -6,9 +6,9 @@ title: Contact Information for Jonathan Gross
   <header>
     <h1>Contact Information</h1>
   </header>
-  <div role="main">
+  <div role="main" itemscope itemtype="http://microformats.org/profile/hcard">
     <h2>Email</h2>
-    <p>
+    <p itemprop="email">
       <a href="mailto:azaghalofbelegost@gmail.com">azaghalofbelegost@gmail.com</a>
     </p>
     <h2>PGP Public Key</h2>
@@ -31,14 +31,26 @@ title: Contact Information for Jonathan Gross
       Physics Department:
     </p>
     <address>
-      Jonathan Gross
+      <span itemprop="fn">
+        <span itemprop="n" itemscope>
+          <span itemprop="given-name">Jonathan</span>
+          <span itemprop="family-name">Gross</span>
+        </span>
+      </span>
       <br/>
-      Department of Physics and Astronomy
+      <span itemprop="org" itemscope>
+        <span itemprop="organization-name">Department of Physics and
+        Astronomy</span>
+      </span>
       <br/>
-      1919 Lomas Blvd NE
-      <br/>
-      MSC07 4220
-      <br/>
-      Albuquerque, NM 87131-0001
+      <span itemprop="adr" itemscope>
+        <span itemprop="street-address">1919 Lomas Blvd NE</span>
+        <br/>
+        MSC07 4220
+        <br/>
+        <span itemprop="locality">Albuquerque</span>,
+        <span itemprop="region">NM</span>
+        <span itemprop="postal-code">87131-0001</span>
+      </span>
     </address>
   </div>
