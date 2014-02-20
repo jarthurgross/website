@@ -23,6 +23,9 @@ figcaption {
   background: #000000;
   margin: 0 auto;
 }
+#author {
+  color: #777777;
+}
 #date {
   color: #777777;
 }

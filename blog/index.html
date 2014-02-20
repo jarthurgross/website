@@ -6,8 +6,9 @@ title: The Well-Squared Circle
 {% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
 {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 
+  <div itemscope itemtype="http://schema.org/Blog">
   <header>
-    <h1>{{ page.title }}</h1>
+    <h1 itemprop="name">{{ page.title }}</h1>
   </header>
   <div role="main">
     <p>
@@ -17,8 +18,9 @@ title: The Well-Squared Circle
     </p>
     <ul>
     {% for post in site.posts %}
-      <li>
-        <a href="{{ relative }}{{ post.url | remove_first: '/' }}">{{ post.title }}</a>
+      <li itemprop="BlogPost" itemscope>
+        <a itemprop="url" href="{{ relative }}{{ post.url | remove_first: '/' }}">{{ post.title }}</a>
+        (<time itemprop="dateCreated" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time>)
       </li>
     {% endfor %}
     </ul>
@@ -27,4 +29,5 @@ title: The Well-Squared Circle
       <a href="{{ relative }}blog/rss.xml">RSS</a> or
       <a href="{{ relative }}blog/atom.xml">atom</a> feeds.
     </p>
+  </div>
   </div>
