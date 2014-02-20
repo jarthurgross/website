@@ -18,7 +18,7 @@ title: The Well-Squared Circle
     </p>
     <ul>
     {% for post in site.posts %}
-      <li itemprop="BlogPost" itemscope>
+      <li itemprop="BlogPost" itemtype="http://schema.org/BlogPosting" itemscope>
         <a itemprop="url" href="{{ relative }}{{ post.url | remove_first: '/' }}">{{ post.title }}</a>
         (<time itemprop="dateCreated" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y-%m-%d" }}</time>)
       </li>
