@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font: normal 12px/18px sans-serif;
-  background: #e3cb84;
+  background: #dae6f2;
 }
 img {
   width: 100%;
@@ -20,7 +20,7 @@ figcaption {
 }
 #nav {
   height: 50px;
-  background: #000000;
+  background: #37507f;
   margin: 0 auto;
 }
 #author {
@@ -34,26 +34,26 @@ figcaption {
 }
 #footer {
   clear: both;
-  color: #ffffff;
-  background: #000000;
+  color: #eff;
+  background: #37507f;
   text-align: center;
   padding: 5px 20px 5px 20px;
 }
 #nav a {
   display: block;
   float: left;
-  color: #ffffff;
+  color: #eff;
   text-decoration: none;
   padding: 0 20px;
   line-height: 50px;
-  border-right: 1px solid #ffffff;
+  border-right: 1px solid #eff;
 }
 #nav a:hover {
-  color: #000000;
-  background: #ffffff;
+  color: #0ef;
+  background: #37507f;
 }
 #footer a {
-  color: #ffffff;
+  color: #eff;
 }
 #headshot {
   float: right;
