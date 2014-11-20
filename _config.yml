@@ -11,7 +11,7 @@ plugins:     ./_plugins
 
 future:      true
 lsi:         false
-pygments:    true
+highlighter: pygments
 markdown:    pandoc
 #markdown:    maruku
 permalink:   date
