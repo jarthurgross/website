@@ -28,7 +28,8 @@
     <meta name="dcterms.type" content="Text" />
     {% if page.article == true %}
     <meta name="dcterms.date" content="{{ page.date | date: "%Y-%m-%d" }}" />
-    <link rel="feed" href="{{ relative }}blog/rss.xml" />
+    <link rel="alternate" type="application/rss+xml" href="{{ relative }}blog/rss.xml" />
+    <link rel="alternate" type="application/atom+xml" href="{{ relative }}blog/atom.xml" />
     {% endif %}
     <meta name="dcterms.creator" content="Jonathan A. Gross" />
     <meta name="dc.language" content="en-US" />
