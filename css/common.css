@@ -1,6 +1,20 @@
+@font-face {
+  font-family: 'linuxBiolinum';
+  src:
+      local('Linux Biolinum O'),
+      local('Linux-Biolinum-O')
+      format('opentype');
+  /* Can't seem to get the linking working from any page but the home page.
+  src:
+      url('../fonts/LinBiolinum_R.woff')
+      format('woff');
+  */
+}
 body {
   margin: 0;
-  font: normal 12px/18px sans-serif;
+  font-family: 'linuxBiolinum', sans-serif;
+  font-weight: normal;
+  font-size: 12px/18px;
   background: #dae6f2;
 }
 img {
