@@ -1,7 +1,7 @@
 module Jekyll
   
   class UltravioletTag < Liquid::Block 
-    require "Uv"
+    require "uv"
     # This defines an uvhighlight tag for code highlighting using Ultraviolet (must [sudo] gem install ultraviolet and dependancies)
     # Syntax for tag is {% uvhighlight code [theme] ["linenumb|linenos"]%} which is similar to the pygments call 
     # code is required, theme and linenumb optional and in any order
