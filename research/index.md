@@ -26,6 +26,8 @@ something up when playing with the CSS...)
 Some of my slides also use MathML for equations, which looks great in Firefox
 but doesn't have good support in Chrome.
 
+* *On the efficacy of weak measurement tomography*, 2015 APS March Meeting, San
+  Antonio, TX, March 4, 2015 ([browsercast][apsbc])
 * *On the efficacy of weak measurement tomography*, 17th annual SQuInT workshop,
   Berkeley, CA, February 20, 2015 ([browsercast][bc], [slides][slides])
 
@@ -35,3 +37,4 @@ but doesn't have good support in Chrome.
 [bc]: {{ relative }}talks/squint2015/squint2015browsercast
 [slides]: {{ relative }}talks/squint2015/squint2015slides
 [zip]: {{ relative }}talks/squint2015/squint2015.zip
+[apsbc]: http://jarthurgross.github.io/apsmarch2015
