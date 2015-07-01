@@ -12,6 +12,13 @@ My research interests currently include studying open-quantum-system dynamics
 (particularly stochastic evolution) and evaluating tomographic schemes employing
 weak measurements.
 
+## Papers
+
+Here is a list of my papers.
+
+* *On the novelty, efficacy, and significance of weak measurements for quantum
+  tomography* (arXiv:[1506.08892][weakmeastomoarxiv], 2015-07-01)
+
 ## Talks
 
 Here is a list of talks I have given (currently only external talks are listed).
@@ -38,3 +45,4 @@ but doesn't have good support in Chrome.
 [slides]: {{ relative }}talks/squint2015/squint2015slides
 [zip]: {{ relative }}talks/squint2015/squint2015.zip
 [apsbc]: http://jarthurgross.github.io/apsmarch2015
+[weakmeastomoarxiv]: http://arxiv.org/abs/1506.08892
