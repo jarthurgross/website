@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Contact Information for Jonathan Gross
+title: Contact information for Jonathan Gross
 ---
 
-Contact Information
+Contact information
 ===================
 <div role="main" itemscope itemtype="http://microformats.org/profile/hcard">
 
@@ -12,10 +12,10 @@ Email
 
 <p itemprop="email">[azaghalofbelegost@gmail.com][email]</p>
 
-PGP Public Key
+PGP public key
 --------------
 
-My public key has been uploaded to the [MIT PGP Public Key Server][mitpks] (and
+My public key has been uploaded to the [MIT PGP public key server][mitpks] (and
 therefore all connected keyservers). Currently I am using PGP key
 [4C86103A][4C86103A].  [A551209B][A551209B] is an old key and has been revoked
 as of 2015-07-07. Please send me encrypted mail, and verify my signatures if I
@@ -23,11 +23,11 @@ send you anything!
 
 If you don't know what PGP is, but are interested in learning how to make
 your email more secure, you may find the following link helpful:
-[How PGP Works][pgpexp]. I have used [Enigmail][enigmail] with
+[How PGP works][pgpexp]. I have used [Enigmail][enigmail] with
 [Thunderbird][thunderbird] in the past, but am currently using
 [Mailvelope][mailvelope] in [Firefox][firefox].
 
-Mailing Address
+Mailing address
 ---------------
 
 If you must mail me something, you may send it to my mailbox in the UNM Physics

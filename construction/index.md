@@ -1,9 +1,9 @@
 ---
 layout: default
-title: How it's Made
+title: How it's made
 ---
 
-How it's Made
+How it's made
 =============
 
 This website is statically generated on my computer using [jekyll][jk] and

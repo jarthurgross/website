@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Courses Taught by Jonathan Gross
+title: Courses taught by Jonathan Gross
 ---
 
-Courses I TA For
+Courses I TA for
 ================
 
 Fall 2013

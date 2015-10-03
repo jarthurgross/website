@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Research Interests
+title: Research interests
 ---
 
 {% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
 {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 
-# Research Interests
+# Research interests
 
 My research interests currently include studying open-quantum-system dynamics
 (particularly stochastic evolution) and evaluating tomographic schemes employing

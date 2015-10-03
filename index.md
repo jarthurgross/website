@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Jonathan Gross's Homepage
+title: Jonathan Gross's homepage
 ---
 
 Welcome!
