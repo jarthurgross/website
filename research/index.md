@@ -31,8 +31,12 @@ clicks, the spacebar works to pause or resume playback (I may have messed
 something up when playing with the CSS...)
 
 Some of my slides also use MathML for equations, which looks great in Firefox
-but doesn't have good support in Chrome.
+but doesn't have good support in Chrome (although I just started playing around
+with the [Math anywhere][mathanywhere] Chrome extension, which does a decent
+job).
 
+* *Fisher symmetry and the geometry of quantum states*, CQuIC internal talk,
+  Albuquerque, NM, September 16, 2015 ([browsercast][fsgqsbc])
 * *On the efficacy of weak measurement tomography*, 2015 APS March Meeting, San
   Antonio, TX, March 4, 2015 ([browsercast][apsbc])
 * *On the efficacy of weak measurement tomography*, 17th annual SQuInT workshop,
@@ -46,3 +50,5 @@ but doesn't have good support in Chrome.
 [zip]: {{ relative }}talks/squint2015/squint2015.zip
 [apsbc]: http://jarthurgross.github.io/apsmarch2015
 [weakmeastomoarxiv]: http://arxiv.org/abs/1506.08892
+[fsgqsbc]: http://jarthurgross.github.io/fisher-symmetric-2015
+[mathanywhere]: https://github.com/andrusha/mathml-chrome
