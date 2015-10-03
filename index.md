@@ -18,9 +18,9 @@ keep a public record of my research activities (such as talks and publications),
 as well as to provide a platform for sharing interesting things I happen upon
 during the course of my work.
 
-I have a bachelors degree in computer engineering from the University of
-Arizona, so much of what I find interesting outside of my immediate research
-field involves software. I am a volunteer instructor for the [Software carpentry
+I have a bachelor's degree in computer engineering from the University of
+Arizona, so much of what I find interesting outside my immediate research field
+involves software. I am a volunteer instructor for the [Software carpentry
 foundation][swc], and am committed to promoting open standards (such as the use
 of HTML as an open presentation format via tools like [reveal.js][rjs]).
 
