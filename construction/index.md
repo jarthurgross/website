@@ -21,12 +21,10 @@ distribution. For interpreting [Markdown][md] I prefer to use [pandoc][pd] for
 its extended Markdown syntax and ability to display math with [MathJax][mj]. In
 order to accomplish this I use the pandoc plugin (originally created by [David
 Sanson][pi], but since he no longer actively maintains it I use the fork
-provided by [David Smith][pi2]). I am also currently using this
-[stylesheet][css] from github for syntax highlighting. The fix from [this][so]
-thread allows me to view my pages both locally and online, given that my
-homepage does not reside at the root of the domain that is serving it. For the
-Atom and <dfn title="Rich Site Summary">RSS</dfn> feeds I use templates put
-together by [Dave Coyle][dc].
+provided by [David Smith][pi2]). The fix from [this][so] thread allows me to
+view my pages both locally and online, given that my homepage does not reside at
+the root of the domain that is serving it. For the Atom and <dfn title="Rich
+Site Summary">RSS</dfn> feeds I use templates put together by [Dave Coyle][dc].
 
 If there is anything on my site you are curious to see the source for, I have a
 public Git [repository][gh] with all my source files.
