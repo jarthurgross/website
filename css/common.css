@@ -49,10 +49,22 @@ figcaption {
 }
 #content {
   position: relative;
-  padding: 20px 20px 60px 20px;
+  padding-top:    20px;
+  padding-left:    0px;
+  padding-right:   0px;
+  padding-bottom: 60px;
+  overflow: auto; /* To keep floated content from extending beyond */
 }
 h1 {
   font-weight: 900;
+}
+/* Portrait on home page */
+#portrait {
+  float: right;
+  width: 25%;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 #author {
   color: #777777;

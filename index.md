@@ -3,8 +3,26 @@ layout: default
 title: Jonathan Gross's homepage
 ---
 
+{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+
 Welcome!
 ========
 
-This site is a blend of personal and professional material related to me,
-Jonathan A. Gross.
+<img id='portrait' src='{{ relative }}images/jonathan-a-gross.jpg'
+  alt='Portrait of Jonathan A. Gross' />
+
+My name is Jonathan A. Gross, and I am a Ph.D. student at the University of New
+Mexico studying the theory of quantum information. I hope for this website to
+keep a public record of my research activities (such as talks and publications),
+as well as to provide an outlet for sharing interesting things I happen upon
+during the course of my work.
+
+I have a bachelors degree in computer engineering from the University of
+Arizona, so much of what I find interesting outside of my immediate research
+field involves software. I am a volunteer instructor for the [Software carpentry
+foundation][swc], and am committed to promoting open standards (such as the use
+of HTML as an open presentation format via tools like [reveal.js][rjs]).
+
+[swc]: http://software-carpentry.org/
+[rjs]: http://lab.hakim.se/reveal-js
