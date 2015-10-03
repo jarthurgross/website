@@ -15,7 +15,7 @@ Welcome!
 My name is Jonathan A. Gross, and I am a Ph.D. student at the University of New
 Mexico studying the theory of quantum information. I hope for this website to
 keep a public record of my research activities (such as talks and publications),
-as well as to provide an outlet for sharing interesting things I happen upon
+as well as to provide a platform for sharing interesting things I happen upon
 during the course of my work.
 
 I have a bachelors degree in computer engineering from the University of
