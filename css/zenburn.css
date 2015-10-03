@@ -1,4 +1,6 @@
-
+/* Taken from
+ * https://raw.githubusercontent.com/richleland/pygments-css/76f2471d923e69991828c0d06eae0578a94d1c0b/zenburn.css
+ * and changed .codehilite to .highlight */
 .highlight code, .highlight pre{color:#fdce93;background-color:#3f3f3f}
 .highlight .hll{background-color:#222}
 .highlight .c{color:#7f9f7f}
