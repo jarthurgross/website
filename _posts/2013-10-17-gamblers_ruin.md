@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Gambler's Ruin
 tags:
 - mathematics
