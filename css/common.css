@@ -58,6 +58,17 @@ figcaption {
 h1 {
   font-weight: 900;
 }
+blockquote {
+  background: #444;
+  padding: 10px;
+  border-radius: 10px;
+}
+blockquote > :first-child {
+  margin-top: 0;
+}
+blockquote > :last-child {
+  margin-bottom: 0;
+}
 /* Portrait on home page */
 #portrait {
   float: right;
