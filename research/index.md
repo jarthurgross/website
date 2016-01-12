@@ -45,7 +45,8 @@ job).
 * *Fisher symmetry and the geometry of quantum states*, CQuIC internal talk,
   Albuquerque, NM, September 16, 2015 ([browsercast][fsgqsbc])
 * *On the efficacy of weak measurement tomography*, 2015 APS March Meeting, San
-  Antonio, TX, March 4, 2015 ([abstract][aps15abs], [browsercast][aps15bc])
+  Antonio, TX, March 4, 2015 (abstract: [M38.00004][aps15abs],
+  [browsercast][aps15bc])
 * *On the efficacy of weak measurement tomography*,
   [17th annual SQuInT workshop][squint15],
   Berkeley, CA, February 20, 2015 ([browsercast][bc], [slides][slides])
