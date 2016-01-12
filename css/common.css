@@ -101,3 +101,7 @@ blockquote > :last-child {
 dt {
   font-weight: 900;
 }
+/* ResearcherID badge image */
+#badgeCont947380 > img {
+  width: 126px;
+}

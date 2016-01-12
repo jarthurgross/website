@@ -12,6 +12,10 @@ My research interests currently include studying open-quantum-system dynamics
 (particularly stochastic evolution) and evaluating tomographic schemes employing
 weak measurements.
 
+<p>
+<span id='badgeCont947380' style='width:126px'><script src='http://labs.researcherid.com/mashlets?el=badgeCont947380&mashlet=badge&showTitle=false&className=a&rid=M-5661-2014'></script></span>
+</p>
+
 ## Papers
 
 Here is a list of my papers.
