@@ -8,13 +8,14 @@ title: Research interests
 
 # Research interests
 
-My research interests currently include studying open-quantum-system dynamics
-(particularly stochastic evolution) and evaluating tomographic schemes employing
-weak measurements.
+My research interests currently include quantum measurement theory and
+geometric properties of quantum state space. I have also done work studying
+open-quantum-system dynamics (particularly stochastic evolution) and evaluating
+tomographic schemes employing weak measurements.
 
-<p>
-<span id='badgeCont947380' style='width:126px'><script src='http://labs.researcherid.com/mashlets?el=badgeCont947380&mashlet=badge&showTitle=false&className=a&rid=M-5661-2014'></script></span>
-</p>
+* ResearcherID: [M-5661-2014][rid]
+* ORCID: [0000-0001-7049-6206][orcid]
+* [Google Scholar][scholar]
 
 ## Papers
 
@@ -59,3 +60,6 @@ job).
 [weakmeastomodoi]: http://dx.doi.org/10.1103/PhysRevA.92.062133
 [fsgqsbc]: http://jarthurgross.github.io/fisher-symmetric-2015
 [mathanywhere]: https://github.com/andrusha/mathml-chrome
+[rid]: http://www.researcherid.com/rid/M-5661-2014
+[orcid]: http://orcid.org/0000-0001-7049-6206
+[scholar]: https://scholar.google.com/citations?user=yo_et60AAAAJ
