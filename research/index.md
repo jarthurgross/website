@@ -20,8 +20,10 @@ weak measurements.
 
 Here is a list of my papers.
 
-* *On the novelty, efficacy, and significance of weak measurements for quantum
-  tomography* (arXiv:[1506.08892][weakmeastomoarxiv], 2015-07-01)
+* *Novelty, efficacy, and significance of weak measurements for quantum
+  tomography*, Phys. Rev. A **92**, 062133 (2015),
+  doi:[10.1103/PhysRevA.92.062133][weakmeastomodoi],
+  arXiv:[1506.08892][weakmeastomoarxiv].
 
 ## Talks
 
@@ -54,5 +56,6 @@ job).
 [zip]: {{ relative }}talks/squint2015/squint2015.zip
 [apsbc]: http://jarthurgross.github.io/apsmarch2015
 [weakmeastomoarxiv]: http://arxiv.org/abs/1506.08892
+[weakmeastomodoi]: http://dx.doi.org/10.1103/PhysRevA.92.062133
 [fsgqsbc]: http://jarthurgross.github.io/fisher-symmetric-2015
 [mathanywhere]: https://github.com/andrusha/mathml-chrome
