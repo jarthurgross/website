@@ -45,8 +45,9 @@ job).
 * *Fisher symmetry and the geometry of quantum states*, CQuIC internal talk,
   Albuquerque, NM, September 16, 2015 ([browsercast][fsgqsbc])
 * *On the efficacy of weak measurement tomography*, 2015 APS March Meeting, San
-  Antonio, TX, March 4, 2015 ([browsercast][apsbc])
-* *On the efficacy of weak measurement tomography*, 17th annual SQuInT workshop,
+  Antonio, TX, March 4, 2015 ([abstract][aps15abs], [browsercast][aps15bc])
+* *On the efficacy of weak measurement tomography*,
+  [17th annual SQuInT workshop][squint15],
   Berkeley, CA, February 20, 2015 ([browsercast][bc], [slides][slides])
 
 [browsercast]: https://github.com/ReDEnergy/Browsercast
@@ -55,7 +56,9 @@ job).
 [bc]: {{ relative }}talks/squint2015/squint2015browsercast
 [slides]: {{ relative }}talks/squint2015/squint2015slides
 [zip]: {{ relative }}talks/squint2015/squint2015.zip
-[apsbc]: http://jarthurgross.github.io/apsmarch2015
+[aps15bc]: http://jarthurgross.github.io/apsmarch2015
+[aps15abs]: http://meetings.aps.org/link/BAPS.2015.MAR.M38.4
+[squint15]: http://physics.unm.edu/SQuInT/2015/index.php
 [weakmeastomoarxiv]: http://arxiv.org/abs/1506.08892
 [weakmeastomodoi]: http://dx.doi.org/10.1103/PhysRevA.92.062133
 [fsgqsbc]: http://jarthurgross.github.io/fisher-symmetric-2015
