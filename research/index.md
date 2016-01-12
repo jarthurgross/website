@@ -28,10 +28,10 @@ Here is a list of my papers.
 
 ## Talks
 
-Here is a list of talks I have given (currently only external talks are listed).
-I give them in two formats: [browsercast][browsercast] (which plays the audio
-back in sync with the slideshow in your browser) or slides only (which allows
-you to view the HTML slides at your own pace in your browser).
+Here is a list of talks I have given or am scheduled to give. I provide them in
+two formats: [browsercast][browsercast] (which plays the audio back in sync
+with the slideshow in your browser) or slides only (which allows you to view
+the HTML slides at your own pace in your browser).
 
 If you are watching a browsercast and the play/pause button is not responding to
 clicks, the spacebar works to pause or resume playback (I may have messed
@@ -42,6 +42,11 @@ but doesn't have good support in Chrome (although I just started playing around
 with the [Math anywhere][mathanywhere] Chrome extension, which does a decent
 job).
 
+* *Fisher symmetry and the geometry of quantum states*, 2016 APS March Meeting,
+  Baltimore, MD, March 16, 2016 (abstract: [L44.00012][aps16abs])
+* *Fisher symmetry and the geometry of quantum states*,
+  [18th annual SQuInT workshop][squint16],
+  Albuquerque, NM, February 19, 2016
 * *Fisher symmetry and the geometry of quantum states*, CQuIC internal talk,
   Albuquerque, NM, September 16, 2015 ([browsercast][fsgqsbc])
 * *On the efficacy of weak measurement tomography*, 2015 APS March Meeting, San
@@ -67,3 +72,5 @@ job).
 [rid]: http://www.researcherid.com/rid/M-5661-2014
 [orcid]: http://orcid.org/0000-0001-7049-6206
 [scholar]: https://scholar.google.com/citations?user=yo_et60AAAAJ
+[aps16abs]: http://meetings.aps.org/Meeting/MAR16/Session/L44.12
+[squint16]: http://physics.unm.edu/SQuInT/2016/index.php
