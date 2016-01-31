@@ -25,7 +25,7 @@ permalink:   date
 
 pandoc:
   format: html5
-  extensions: [smart, mathml]
+  extensions: [smart, html-q-tags, mathml]
 
 rdiscount:
   extensions: []
