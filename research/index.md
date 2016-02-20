@@ -21,6 +21,8 @@ tomographic schemes employing weak measurements.
 
 Here is a list of my papers.
 
+* *Fisher-symmetric informationally complete measurements for pure states*,
+  arXiv:[1507.06904][fisherpurearxiv].
 * *Novelty, efficacy, and significance of weak measurements for quantum
   tomography*, Phys. Rev. A **92**, 062133 (2015),
   doi:[10.1103/PhysRevA.92.062133][weakmeastomodoi],
@@ -45,8 +47,8 @@ job).
 * *Fisher symmetry and the geometry of quantum states*, 2016 APS March Meeting,
   Baltimore, MD, March 16, 2016 (abstract: [L44.00012][aps16abs])
 * *Fisher symmetry and the geometry of quantum states*,
-  [18th annual SQuInT workshop][squint16],
-  Albuquerque, NM, February 19, 2016 ([slides][squint16slides])
+  [18th annual SQuInT workshop][squint16], Albuquerque, NM, February 19, 2016
+  (abstract: [9c, 4:30&ndash;5pm][squint16abs], [slides][squint16slides])
 * *Fisher symmetry and the geometry of quantum states*, CQuIC internal talk,
   Albuquerque, NM, September 16, 2015 ([browsercast][fsgqsbc])
 * *On the efficacy of weak measurement tomography*, 2015 APS March Meeting, San
@@ -65,6 +67,7 @@ job).
 [aps15bc]: http://jarthurgross.github.io/apsmarch2015
 [aps15abs]: http://meetings.aps.org/link/BAPS.2015.MAR.M38.4
 [squint15]: http://physics.unm.edu/SQuInT/2015/index.php
+[fisherpurearxiv]: http://arxiv.org/abs/1507.06904
 [weakmeastomoarxiv]: http://arxiv.org/abs/1506.08892
 [weakmeastomodoi]: http://dx.doi.org/10.1103/PhysRevA.92.062133
 [fsgqsbc]: http://jarthurgross.github.io/fisher-symmetric-2015
@@ -74,4 +77,5 @@ job).
 [scholar]: https://scholar.google.com/citations?user=yo_et60AAAAJ
 [aps16abs]: http://meetings.aps.org/Meeting/MAR16/Session/L44.12
 [squint16]: http://physics.unm.edu/SQuInT/2016/index.php
+[squint16abs]: http://physics.unm.edu/SQuInT/2016/abstracts.php?speaker=Gross
 [squint16slides]: https://jarthurgross.github.io/squint2016
