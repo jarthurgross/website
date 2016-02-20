@@ -46,7 +46,7 @@ job).
   Baltimore, MD, March 16, 2016 (abstract: [L44.00012][aps16abs])
 * *Fisher symmetry and the geometry of quantum states*,
   [18th annual SQuInT workshop][squint16],
-  Albuquerque, NM, February 19, 2016
+  Albuquerque, NM, February 19, 2016 ([slides][squint16slides])
 * *Fisher symmetry and the geometry of quantum states*, CQuIC internal talk,
   Albuquerque, NM, September 16, 2015 ([browsercast][fsgqsbc])
 * *On the efficacy of weak measurement tomography*, 2015 APS March Meeting, San
@@ -74,3 +74,4 @@ job).
 [scholar]: https://scholar.google.com/citations?user=yo_et60AAAAJ
 [aps16abs]: http://meetings.aps.org/Meeting/MAR16/Session/L44.12
 [squint16]: http://physics.unm.edu/SQuInT/2016/index.php
+[squint16slides]: https://jarthurgross.github.io/squint2016
