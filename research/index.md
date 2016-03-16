@@ -45,7 +45,8 @@ with the [Math anywhere][mathanywhere] Chrome extension, which does a decent
 job).
 
 * *Fisher symmetry and the geometry of quantum states*, 2016 APS March Meeting,
-  Baltimore, MD, March 16, 2016 (abstract: [L44.00012][aps16abs])
+  Baltimore, MD, March 16, 2016 (abstract: [L44.00012][aps16abs],
+  [slides][aps16slides])
 * *Fisher symmetry and the geometry of quantum states*,
   [18th annual SQuInT workshop][squint16], Albuquerque, NM, February 19, 2016
   (abstract: [9c, 4:30&ndash;5pm][squint16abs], [slides][squint16slides])
@@ -79,3 +80,4 @@ job).
 [squint16]: http://physics.unm.edu/SQuInT/2016/index.php
 [squint16abs]: http://physics.unm.edu/SQuInT/2016/abstracts.php?speaker=Gross
 [squint16slides]: https://jarthurgross.github.io/squint2016
+[aps16slides]: https://jarthurgross.github.io/apsmarch2016
