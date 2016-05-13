@@ -44,6 +44,8 @@ but doesn't have good support in Chrome (although I just started playing around
 with the [Math anywhere][mathanywhere] Chrome extension, which does a decent
 job).
 
+* *Fisher symmetry and the geometry of quantum states*, University of Sydney,
+  May 12, 2016 ([slides][sydney16slides])
 * *Fisher symmetry and the geometry of quantum states*, 2016 APS March Meeting,
   Baltimore, MD, March 16, 2016 (abstract: [L44.00012][aps16abs],
   [slides][aps16slides])
@@ -81,3 +83,4 @@ job).
 [squint16abs]: http://physics.unm.edu/SQuInT/2016/abstracts.php?speaker=Gross
 [squint16slides]: https://jarthurgross.github.io/squint2016
 [aps16slides]: https://jarthurgross.github.io/apsmarch2016
+[sydney16slides]: https://jarthurgross.github.io/sydney2016
