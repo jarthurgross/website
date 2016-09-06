@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=1024, user-scalable=no">
+
+  <meta name="author" content="Jonathan A. Gross" />
+  <meta name="dcterms.creator" content="Jonathan A. Gross" />
+  <meta name="dc.language" content="en-US" />
+  <meta name="dcterms.language" content="en-US" />
+  <meta name="dcterms.title" content="Weak measurement tomography" />
+
+  <title>Weak measurement tomography</title>
+
+  <!-- Required stylesheet -->
+  <link rel="stylesheet" media="screen" href="../core/deck.core.css">
+
+  <!-- Extension CSS files go here. Remove or add as needed. -->
+  <link rel="stylesheet" media="screen" href="../extensions/goto/deck.goto.css">
+  <link rel="stylesheet" media="screen" href="../extensions/menu/deck.menu.css">
+  <link rel="stylesheet" media="screen" href="../extensions/status/deck.status.css">
+  <link rel="stylesheet" media="screen" href="../extensions/scale/deck.scale.css">
+
+  <!-- Style theme. More available in /themes/style/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="../themes/style/physics.css">
+
+  <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="../themes/transition/horizontal-slide.css">
+
+  <!-- Basic black and white print styles -->
+  <link rel="stylesheet" media="print" href="../core/print.css">
+
+  <!-- Required Modernizr file -->
+  <script src="../modernizr.custom.js"></script>
+</head>
+<body>
+  <div itemscope itemtype="http://n.whatwg.org/work" class="deck-container">
+
+    <!-- Begin slides. Just make elements with a class of slide. -->
+
+    <section class="slide">
+      <h2>Weak measurement tomography</h2>
+      <p>Jonathan Gross, Ninnat Dangniam, Chris Ferrie, Carl Caves</p>
+      <p><em>Center for Quantum Information and Control</em>, University of New Mexico</p>
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+    </section>
+
+    <section class="slide">
+      <h2>Tomography</h2>
+      <img src="../img/tomography.png" />
+      <ul>
+        <li>Repeat measurement on each copy</li>
+        <li>Adapt measurement based on previous outcomes</li>
+        <li>Perform joint measurements</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Weak measurements</h2>
+      <img src="../img/weak-interaction.png" />
+      <ul>
+        <li>Measurements that give less than maximal information about the system</li>
+        <li>Can model with an ancilla and weakly correlating unitary</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Random projective measurements</h2>
+      <img src="../img/random-odop-ckt.png" />
+      <p>Minimal kind of <q>standard</q> measurement for tomography is a randomly chosen one-dimensional projective measurement (random ODOP)</p>
+    </section>
+
+    <section class="slide">
+      <h2>Standard reasons for doing tomography with weak measurements</h2>
+      <div>
+      <img src="../img/stern-gerlach.png" class="left" />
+      <img src="../img/tetrahedron.png" />
+      </div>
+      <ol>
+        <li>Many real measurements are weak</li>
+        <li>Weak measurements are a resource for performing exotic measurements
+          <ul>
+            <li>Oreshkov and Brun, Phys. Rev. Lett. <strong>95</strong>, 110409 (2005)
+              <br />
+              <a href="http://dx.doi.org/10.1103/PhysRevLett.95.110409"><cite>Weak measurements are universal</cite></a></li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <section class="slide">
+      <h2>Less standard reasons for doing tomography with weak measurements</h2>
+      <ol>
+        <li>Weak measurements provide a fundamentally <strong>new</strong> way of doing tomography</li>
+        <li>Weak measurements allow you to do tomography <strong>better</strong> than non-weak measurements</li>
+        <li>Weak measurements give new <strong>insights</strong> into the fundamentals of quantum mechanics</li>
+      </ol>
+    </section>
+
+    <section class="slide">
+      <h2>Evaluation principles</h2>
+      <ol>
+        <li>Write down POVMs
+          <ul>
+            <li>Compare to randomly chosen one-dimensional orthogonal projective measurement (random ODOP)</li>
+          </ul>
+        </li>
+        <li>Compare measurements using optimal estimator for a figure of merit (FOM)
+          <ul>
+            <li>Use average fidelity as the FOM:
+              <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>F</mi><mo>=</mo><msub><mi>max</mi><mover><mi>ρ</mi><mo accent="true">^</mo></mover></msub><mo>∫</mo><mi>d</mi><mi>ρ</mi><mspace width="0.167em"></mspace><msub><mo>∑</mo><mi>χ</mi></msub><mi>p</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>χ</mi><mo stretchy="true" form="infix">|</mo><mi>ρ</mi><mo stretchy="true" form="postfix">)</mo></mrow><mspace width="0.167em"></mspace><mi>f</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>ρ</mi><mo>,</mo><mover><mi>ρ</mi><mo accent="true">^</mo></mover><mo stretchy="false" form="prefix">(</mo><mi>χ</mi><mo stretchy="false" form="postfix">)</mo><mo stretchy="true" form="postfix">)</mo></mrow></mrow></math>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <section class="slide">
+      <h2>Two schemes considered in this talk</h2>
+      <ul>
+        <li>Das and Arvind, Phys. Rev. A <strong>89</strong>, 062121 (2014)
+          <br />
+          <a href="http://dx.doi.org/10.1103/PhysRevA.89.062121"><cite>Estimation of quantum states by weak and projective measurements</cite></a></li>
+        <li>Lundeen <em>et al.</em>, <em>Nature</em> <strong>474</strong>, 188–191 (2011)
+          <br />
+          <a href="http://dx.doi.org/10.1038/nature10120"><cite>Direct measurement of the quantum wavefunction</cite></a></li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Das and Arvind</h2>
+      <p>Das and Arvind, Phys. Rev. A <strong>89</strong>, 062121 (2014)
+        <br />
+        <a href="http://dx.doi.org/10.1103/PhysRevA.89.062121"><cite>Estimation of quantum states by weak and projective measurements</cite></a></p>
+      <p>Claims:</p>
+          <ol>
+            <li>The measurement is something <strong>new</strong> beyond <q>standard</q> tomography</li>
+            <li>The measurement performs <strong>better</strong> than <q>standard</q> tomography
+              <ul>
+                <li>The measurement they compare to is a measurement of <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>σ</mi><mi>x</mi></msub></math>, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>σ</mi><mi>y</mi></msub></math>, and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>σ</mi><mi>z</mi></msub></math>, which is a random ODOP</li>
+              </ul>
+            </li>
+            <li>The <strong>insight</strong> is that weak measurements allow re-use of the system due to the small disturbance</li>
+          </ol>
+      </p>
+    </section>
+
+    <section class="slide">
+      <h2>Weak coupling</h2>
+      <img src="../img/das-weak-interaction.png" />
+      <img src="../img/continuous-meter.png" />
+      <p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>ϵ</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mo>Δ</mo><msup><mi>q</mi><mn>2</mn></msup></mrow></mfrac></mrow></math></p>
+    </section>
+
+    <section class="slide">
+      <h2>Analysis</h2>
+      <img src="../img/weak-meas-ckt.png" />
+      <p>
+        Two perspectives:
+        <ol>
+          <li>The weak measurements extract data prior to the projection</li>
+          <li>The weak measurements modify the final measurement</li>
+        </ol>
+      </p>
+      <p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msubsup class="blue"><mi>K</mi><mo>±</mo><mrow><mo stretchy="false" form="prefix">(</mo><mi>y</mi><mo stretchy="false" form="postfix">)</mo></mrow></msubsup><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy="false" form="prefix">(</mo><mi>I</mi><mo>±</mo><msub><mi>σ</mi><mi>y</mi></msub><mo stretchy="false" form="postfix">)</mo></mrow></math></p>
+      <p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mi>K</mi><mrow><mo stretchy="false" form="prefix">(</mo><mi>j</mi><mo stretchy="false" form="postfix">)</mo></mrow></msup><mo stretchy="false" form="prefix">(</mo><mi>q</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mrow><mo stretchy="true" form="prefix">⟨</mo><mi>q</mi><mo stretchy="true" form="postfix">|</mo></mrow><msup><mi>U</mi><mrow><mo stretchy="false" form="prefix">(</mo><mi>j</mi><mo stretchy="false" form="postfix">)</mo></mrow></msup><mrow><mo stretchy="true" form="prefix">|</mo><mi>ϕ</mi><mo stretchy="true" form="postfix">⟩</mo></mrow></mrow></math></p>
+      <p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msub><mi class="red">K</mi><mn class="blue">±</mn></msub><mo stretchy="false" form="prefix">(</mo><msub class="purple"><mi>q</mi><mn>1</mn></msub><mo>,</mo><msub class="orange"><mi>q</mi><mn>2</mn></msub><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msubsup class="blue"><mi>K</mi><mo>±</mo><mrow><mo stretchy="false" form="prefix">(</mo><mi>y</mi><mo stretchy="false" form="postfix">)</mo></mrow></msubsup><msup class="orange"><mi>K</mi><mrow><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow></msup><mo stretchy="false" form="prefix">(</mo><msub class="orange"><mi>q</mi><mn>2</mn></msub><mo stretchy="false" form="postfix">)</mo><msup class="purple"><mi>K</mi><mrow><mo stretchy="false" form="prefix">(</mo><mi>z</mi><mo stretchy="false" form="postfix">)</mo></mrow></msup><mo stretchy="false" form="prefix">(</mo><msub class="purple"><mi>q</mi><mn>1</mn></msub><mo stretchy="false" form="postfix">)</mo></mrow></math></p>
+    </section>
+
+    <section class="slide">
+      <h2>POVM elements</h2>
+      <img src="../img/random-projector-das.png" />
+      <p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msub><mi class="red">E</mi><mo class="blue">±</mo></msub><mo stretchy="false" form="prefix">(</mo><msub class="purple"><mi>q</mi><mn>1</mn></msub><mo>,</mo><msub class="orange"><mi>q</mi><mn>2</mn></msub><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msup class="purple"><mi>K</mi><mrow><mo stretchy="false" form="prefix">(</mo><mi>z</mi><mo stretchy="false" form="postfix">)</mo></mrow></msup><mo stretchy="false" form="prefix">(</mo><msub class="purple"><mi>q</mi><mn>1</mn></msub><msup><mo stretchy="false" form="postfix">)</mo><mo>†</mo></msup><msup class="orange"><mi>K</mi><mrow><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow></msup><mo stretchy="false" form="prefix">(</mo><msub class="orange"><mi>q</mi><mn>2</mn></msub><msup><mo stretchy="false" form="postfix">)</mo><mo>†</mo></msup><msubsup class="blue"><mi>E</mi><mo>±</mo><mrow><mo stretchy="false" form="prefix">(</mo><mi>y</mi><mo stretchy="false" form="postfix">)</mo></mrow></msubsup><msup class="orange"><mi>K</mi><mrow><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow></msup><mo stretchy="false" form="prefix">(</mo><msub class="orange"><mi>q</mi><mn>2</mn></msub><mo stretchy="false" form="postfix">)</mo><msup class="purple"><mi>K</mi><mrow><mo stretchy="false" form="prefix">(</mo><mi>z</mi><mo stretchy="false" form="postfix">)</mo></mrow></msup><mo stretchy="false" form="prefix">(</mo><msub class="purple"><mi>q</mi><mn>1</mn></msub><mo stretchy="false" form="postfix">)</mo></mrow></math></p>
+      <p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi class="red">E</mi><mo stretchy="false" form="prefix">(</mo><mover class="pink"><mi>n</mi><mo accent="true">^</mo></mover><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi class="brown">G</mi><mo stretchy="false" form="prefix">(</mo><mover class="pink"><mi>n</mi><mo accent="true">^</mo></mover><mo stretchy="false" form="postfix">)</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><mover class="pink"><mi>n</mi><mo accent="true">^</mo></mover><mo>⋅</mo><mover><mi>σ</mi><mo accent="true">⃗</mo></mover><mo stretchy="false" form="postfix">)</mo></mrow></math></p>
+      <p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msub><mover class="pink"><mi>n</mi><mo accent="true">^</mo></mover><mo class="blue">±</mo></msub><mo stretchy="false" form="prefix">(</mo><msub class="purple"><mi>q</mi><mn>1</mn></msub><mo>,</mo><msub class="orange"><mi>q</mi><mn>2</mn></msub><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mo>−</mo><msub><mover class="pink"><mi>n</mi><mo accent="true">^</mo></mover><mo class="blue">∓</mo></msub><mo stretchy="false" form="prefix">(</mo><mo>−</mo><msub class="purple"><mi>q</mi><mn>1</mn></msub><mo>,</mo><mo>−</mo><msub class="orange"><mi>q</mi><mn>2</mn></msub><mo stretchy="false" form="postfix">)</mo></mrow></math></p>
+      <p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi class="brown">G</mi><mo stretchy="false" form="prefix">(</mo><mover class="pink"><mi>n</mi><mo accent="true">^</mo></mover><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi class="brown">G</mi><mo stretchy="false" form="prefix">(</mo><mo>−</mo><mover class="pink"><mi>n</mi><mo accent="true">^</mo></mover><mo stretchy="false" form="postfix">)</mo></mrow></math></p>
+      <p>Equally weighted, orthogonal projectors: <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msub><mi class="red">E</mi><mo class="blue">±</mo></msub><mo stretchy="false" form="prefix">(</mo><msub class="purple"><mi>q</mi><mn>1</mn></msub><mo>,</mo><msub class="orange"><mi>q</mi><mn>2</mn></msub><mo stretchy="false" form="postfix">)</mo></mrow></math>, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msub><mi class="red">E</mi><mo class="blue">∓</mo></msub><mo stretchy="false" form="prefix">(</mo><mo>−</mo><msub class="purple"><mi>q</mi><mn>1</mn></msub><mo>,</mo><mo>−</mo><msub class="orange"><mi>q</mi><mn>2</mn></msub><mo stretchy="false" form="postfix">)</mo></mrow></math></p>
+    </section>
+
+    <section class="slide">
+      <h2>Projection onto the q-plane</h2>
+      <img src="../img/e1-q3-lin-interp-projection.png" />
+      <p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msub><mover class="pink"><mi>n</mi><mo accent="true">^</mo></mover><mo class="blue">±</mo></msub><mo stretchy="false" form="prefix">(</mo><msub class="purple"><mi>q</mi><mn>1</mn></msub><mo>,</mo><msub class="orange"><mi>q</mi><mn>2</mn></msub><mo stretchy="false" form="postfix">)</mo></mrow></math></p>
+      <p class="attribution">Original image: "<a href="https://commons.wikimedia.org/wiki/File:Equirectangular_projection_SW.jpg#mediaviewer/File:Equirectangular_projection_SW.jpg">Equirectangular projection SW</a>" by <a href="//commons.wikimedia.org/wiki/User:Strebe" title="User:Strebe">Strebe</a> - <span class="int-own-work">Own work</span>. Licensed under <a title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a> via <a href="//commons.wikimedia.org/wiki/">Wikimedia Commons</a>.</p>
+    </section>
+
+    <section class="slide">
+      <h2>Q-plane distributions</h2>
+      <img src="../img/q-distributions.png" />
+      <p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi class="brown">G</mi><mo stretchy="false" form="prefix">(</mo><msub class="purple"><mi>q</mi><mn>1</mn></msub><mo>,</mo><msub class="orange"><mi>q</mi><mn>2</mn></msub><mo stretchy="false" form="postfix">)</mo></mrow></math></p>
+    </section>
+
+    <section class="slide">
+      <h2>Bloch sphere distributions</h2>
+      <img src="../img/composite-bloch-plots.png" />
+      <p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi class="brown">G</mi><mo stretchy="false" form="prefix">(</mo><mover class="pink"><mi>n</mi><mo accent="true">^</mo></mover><mo stretchy="false" form="postfix">)</mo></mrow></math></p>
+    </section>
+
+    <section class="slide">
+      <h2>Evaluation</h2>
+      <img src="../img/random-projector-das.png" />
+      <p>The proposal has several problems:
+        <ol>
+          <li>
+            The measurement is <strong>not new</strong>
+            <ul>
+              <li>POVM is a random ODOP (<em>i.e.</em> <q>standard</q> tomography)</li>
+            </ul>
+          </li>
+          <li>
+            The measurement is <strong>not better</strong>
+            <ul>
+              <li>Best measurement is projector sampled from Haar uniform distribution (random ODOP)</li>
+            </ul>
+          </li>
+          <li>
+            The <strong>insight is misleading</strong>
+            <ul>
+              <li>Extra weak measurements don't extract more information, they generate a distribution</li>
+            </ul>
+          </li>
+        </ol>
+      </p>
+    </section>
+
+    <section class="slide">
+      <h2>Direct state tomography (DST)</h2>
+      <p>Lundeen <em>et al.</em>, <em>Nature</em> <strong>474</strong>, 188–191 (2011)
+        <br />
+        <a href="http://dx.doi.org/10.1038/nature10120"><cite>Direct measurement of the quantum wavefunction</cite></a></p>
+      <p>Claims:</p>
+      <ol>
+        <li>The measurement uses a <strong>new</strong> technique inspired by weak-value procedures</li>
+        <li>Simplicity of measurement makes it <strong>better</strong> for some systems</li>
+        <li>The relationship between meter readings and probability amplitudes provides <strong>insight</strong> for the interpretation of the wavefunction</li>
+      </ol>
+    </section>
+
+    <section class="slide">
+      <h2>Direct state tomography (DST)</h2>
+      <img src="../img/dst-meas.png" />
+      <p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mrow><mo stretchy="true" form="prefix">⟨</mo><mi>n</mi><mo stretchy="true" form="infix">|</mo><msub class="blue"><mi>c</mi><mi>m</mi></msub><mo stretchy="true" form="postfix">⟩</mo></mrow><mo>=</mo><mfrac><mn>1</mn><msqrt><mi>d</mi></msqrt></mfrac><msup><mi>ω</mi><mrow><mi>m</mi><mi>n</mi></mrow></msup><mo>,</mo><mspace width="0.167em"></mspace><mi>ω</mi><mo>=</mo><msup><mi>e</mi><mrow><mn>2</mn><mi>π</mi><mi>i</mi><mo>/</mo><mi>d</mi></mrow></msup></mrow></math></p>
+      <p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mrow><mo stretchy="true" form="prefix">⟨</mo><mi>n</mi><mo stretchy="true" form="infix">|</mo><mi>𝜓</mi><mo stretchy="true" form="postfix">⟩</mo></mrow><mo>∝</mo><msub><mrow><mrow><mo stretchy="true" form="prefix">⟨</mo><msub class="purple"><mi>σ</mi><mi>y</mi></msub><mo stretchy="true" form="postfix">⟩</mo></mrow><mo stretchy="true" form="postfix">|</mo></mrow><mrow><msub class="blue"><mi>c</mi><mn>0</mn></msub><mo>,</mo><mi>n</mi></mrow></msub><mo>+</mo><mi>i</mi><msub><mrow><mrow><mo stretchy="true" form="prefix">⟨</mo><msub class="orange"><mi>σ</mi><mi>z</mi></msub><mo stretchy="true" form="postfix">⟩</mo></mrow><mo stretchy="true" form="postfix">|</mo></mrow><mrow><msub class="blue"><mi>c</mi><mn>0</mn></msub><mo>,</mo><mi>n</mi></mrow></msub><mo>+</mo><mstyle mathvariant="script"><mi>𝒪</mi></mstyle><mo stretchy="false" form="prefix">(</mo><msup><mi>φ</mi><mn>2</mn></msup><mo stretchy="false" form="postfix">)</mo></mrow></math></p>
+      <p>Maccone and Rusconi, Phys. Rev. A <strong>89</strong>, 022122 (2014)
+        <br />
+        <a href="http://dx.doi.org/10.1103/PhysRevA.89.022122"><cite>State estimation: A comparison between direct state measurement and tomography</cite></a></p>
+    </section>
+
+    <section class="slide">
+      <h2>Postselection throws away information</h2>
+      <div>
+        <img src="../img/change-postselect-ckt.png" />
+        <img src="../img/rephase-state-ckt.png" />
+      </div>
+      <p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi class="red">Z</mi><mrow><mo stretchy="true" form="prefix">|</mo><msub class="blue"><mi>c</mi><mi>m</mi></msub><mo stretchy="true" form="postfix">⟩</mo></mrow><mo>=</mo><mrow><mo stretchy="true" form="prefix">|</mo><msub class="blue"><mi>c</mi><mrow><mi>m</mi><mo>⊕</mo><mn>1</mn></mrow></msub><mo stretchy="true" form="postfix">⟩</mo></mrow></mrow></math></p>
+      <p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi class="red">Z</mi><mrow><mo stretchy="true" form="prefix">|</mo><mi>n</mi><mo stretchy="true" form="postfix">⟩</mo></mrow><mo>=</mo><msup><mi>ω</mi><mi>n</mi></msup><mrow><mo stretchy="true" form="prefix">|</mo><mi>n</mi><mo stretchy="true" form="postfix">⟩</mo></mrow></mrow></math></p>
+      <p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mi>ω</mi><mrow><mo>−</mo><mi>j</mi><mi>n</mi></mrow></msup><mrow><mo stretchy="true" form="prefix">⟨</mo><mi>n</mi><mo stretchy="true" form="infix">|</mo><mi>ψ</mi><mo stretchy="true" form="postfix">⟩</mo></mrow><mo>∝</mo><msub><mrow><mrow><mo stretchy="true" form="prefix">⟨</mo><msub class="purple"><mi>σ</mi><mi>y</mi></msub><mo stretchy="true" form="postfix">⟩</mo></mrow><mo stretchy="true" form="postfix">|</mo></mrow><mrow><msub class="blue"><mi>c</mi><mi>j</mi></msub><mo>,</mo><mi>n</mi></mrow></msub><mo>+</mo><mi>i</mi><msub><mrow><mrow><mo stretchy="true" form="prefix">⟨</mo><msub class="orange"><mi>σ</mi><mi>z</mi></msub><mo stretchy="true" form="postfix">⟩</mo></mrow><mo stretchy="true" form="postfix">|</mo></mrow><mrow><msub class="blue"><mi>c</mi><mi>j</mi></msub><mo>,</mo><mi>n</mi></mrow></msub><mo>+</mo><mstyle mathvariant="script"><mi>𝒪</mi></mstyle><mo stretchy="false" form="prefix">(</mo><msup><mi>φ</mi><mn>2</mn></msup><mo stretchy="false" form="postfix">)</mo></mrow></math></p>
+    </section>
+
+    <section class="slide">
+      <h2>Z-measurement (imaginary part)</h2>
+      <img src="../img/z-dst-classical.png" />
+      <p>Measurement commutes with control</p>
+      <p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msub class="red"><mi>U</mi><mrow><mi>n</mi><mo>±</mo></mrow></msub><mo>=</mo><msup><mi>e</mi><mrow><mo>∓</mo><mi>i</mi><mi>φ</mi><mrow><mo stretchy="true" form="prefix">|</mo><mi>n</mi><mo stretchy="true" form="infix">⟩</mo><mo stretchy="true" form="infix">⟨</mo><mi>n</mi><mo stretchy="true" form="postfix">|</mo></mrow></mrow></msup></mrow></math></p>
+    </section>
+
+    <section class="slide">
+      <h2>Y-measurement (real part) for qubits</h2>
+      <img src="../img/y-povm-arrows.png" />
+      <p>POVMs for different coupling unitaries are not random ODOPs (for fixed <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi></math>)</p>
+    </section>
+
+    <section class="slide">
+      <h2>Y-measurement (real part) for qubits</h2>
+        <img src="../img/y-dst-classical.png" />
+        <img src="../img/random-y-dst.png" />
+      <p>If we only consider reconstructing qubits, flipping a coin to choose between <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mo stretchy="true" form="prefix">|</mo><mn>0</mn><mo stretchy="true" form="postfix">⟩</mo></mrow></math> and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mo stretchy="true" form="prefix">|</mo><mn>1</mn><mo stretchy="true" form="postfix">⟩</mo></mrow></math> yields a POVM that is a random ODOP</p>
+    </section>
+
+    <section class="slide">
+      <h2>Evaluation</h2>
+      <ol>
+        <li>
+          The weak-value-inspired procedure is only <strong>new</strong> for the real parts in dimensions higher than 2
+          <ul>
+            <li>All other measurements are random ODOPs</li>
+          </ul>
+        </li>
+        <li>
+          It is not <strong>better</strong> than the same scheme without postselection
+          <ul>
+            <li>Eliminating postselection does not change experimental setup and leaves postprocessing virtually unchanged</li>
+          </ul>
+        </li>
+        <li>
+          The <strong>insight</strong> is misleading since real and imaginary components cannot be determined until all measurements are made
+        </li>
+      </ol>
+    </section>
+
+    <section class="slide">
+      <h2>Summary</h2>
+      <ol>
+        <li>Random ODOPs already exhibit much of the <q><strong>new</strong></q> behavior seen in weak measurements</li>
+        <li>For average fidelity, the <strong>best</strong> independent measurement is a random ODOP</li>
+        <li>For tomography in general, the <strong>best</strong> thing to do is keep all the data</li>
+        <li>Many of the <strong>insights</strong> of weak measurements have caveats that become clear when analyzed at the level of POVMs</li>
+      </ol>
+    </section>
+
+    <!-- End slides. -->
+
+    <!-- Begin extension snippets. Add or remove as needed. -->
+
+    <!-- deck.status snippet -->
+    <p class="deck-status" aria-role="status">
+      <span class="deck-status-current"></span>
+      /
+      <span class="deck-status-total"></span>
+    </p>
+
+    <!-- deck.goto snippet -->
+    <form action="." method="get" class="goto-form">
+      <label for="goto-slide">Go to slide:</label>
+      <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+      <datalist id="goto-datalist"></datalist>
+      <input type="submit" value="Go">
+    </form>
+
+    <!-- End extension snippets. -->
+  </div>
+
+<!-- Required JS files. -->
+<script src="../jquery.min.js"></script>
+<script src="../core/deck.core.js"></script>
+
+<!-- Extension JS files. Add or remove as needed. -->
+<script src="../extensions/menu/deck.menu.js"></script>
+<script src="../extensions/goto/deck.goto.js"></script>
+<script src="../extensions/status/deck.status.js"></script>
+<script src="../extensions/scale/deck.scale.js"></script>
+
+<!-- Initialize the deck. You can put this in an external file if desired. -->
+<script>
+  $(function() {
+    $.deck('.slide');
+  });
+</script>
+</body>
+</html>
