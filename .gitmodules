@@ -1,3 +1,0 @@
-[submodule "_plugins/jekyll-pandoc-plugin"]
-	path = _plugins/jekyll-pandoc-plugin
-	url = git@github.com:mfenner/jekyll-pandoc.git

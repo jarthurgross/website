@@ -9,6 +9,9 @@ source:      .
 destination: ./_site
 plugins_dir:     ./_plugins
 
+gems:
+  - jekyll-pandoc
+
 future:      true
 lsi:         false
 highlighter: pygments
