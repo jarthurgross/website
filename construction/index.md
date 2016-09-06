@@ -18,13 +18,12 @@ more standards-compliant than some other systems.
 
 I have made use of several pieces of code in addition to the standard jekyll
 distribution. For interpreting [Markdown][md] I prefer to use [pandoc][pd] for
-its extended Markdown syntax and ability to display math with [MathJax][mj]. In
-order to accomplish this I use the pandoc plugin (originally created by [David
-Sanson][pi], but since he no longer actively maintains it I use the fork
-provided by [David Smith][pi2]). The fix from [this][so] thread allows me to
-view my pages both locally and online, given that my homepage does not reside at
-the root of the domain that is serving it. For the Atom and <dfn title="Rich
-Site Summary">RSS</dfn> feeds I use templates put together by [Dave Coyle][dc].
+its extended Markdown syntax and ability to display math with [MathJax][mj].
+In order to accomplish this I use the [jekyll-pandoc][jekyllpandoc] plugin.
+The fix from [this][so] thread allows me to view my pages both locally and
+online, given that my homepage does not reside at the root of the domain that
+is serving it. For the Atom and <dfn title="Rich Site Summary">RSS</dfn> feeds
+I use templates put together by [Dave Coyle][dc].
 
 If there is anything on my site you are curious to see the source for, I have a
 public Git [repository][gh] with all my source files.
@@ -33,10 +32,8 @@ public Git [repository][gh] with all my source files.
 [rs]: https://rsync.samba.org/ "rsync"
 [md]: http://daringfireball.net/projects/markdown/ "Markdown"
 [pd]: http://johnmacfarlane.net/pandoc/ "pandoc"
+[jekyllpandoc]: https://github.com/mfenner/jekyll-pandoc "Jekyll Pandoc markdown converter as Ruby gem"
 [mj]: http://www.mathjax.org/ "MathJax"
-[pi]: https://github.com/dsanson/jekyll-pandoc-plugin "jekyll-pandoc-plugin"
-[pi2]: https://github.com/davepwsmith/jekyll-pandoc-plugin "jekyll-pandoc-plugin"
-[css]: http://github.com/mojombo/tpw/tree/master/css/syntax.css "syntax.css"
 [so]: http://stackoverflow.com/questions/7985081/how-to-deploy-a-jekyll-site-locally-with-css-js-and-background-images-included "How to deploy a jekyll site locally with css, js and background images included?"
 [dc]: http://davecoyle.com/tech-notes/jekyll-templates-for-atom-rss/ "Jekyll Templates for Atom, RSS"
 [gh]: https://github.com/jarthurgross/website
