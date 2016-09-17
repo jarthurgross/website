@@ -64,7 +64,7 @@ use that transition point to mark the beginning of exponential growth. As a
 crude measure of goodness of fit, we will use the R value provided by scipy's
 linear regression routine (this is the square-root of the
 [coefficient of determination][coeffofdeterm]). Let's take a look at these
-R values for varios starting months:
+R values for various starting months:
 
 ![R values]({{ relative }}images/r_values.png)
 
@@ -102,8 +102,8 @@ significant monthly fluctuations compared to the inner quartile range (which
 contains half the data), so it looks like we have captured some real quality of
 the data.
 
-Let's see how the montly submissions data looks when compared to our yearly
-predictions modulated by the montly fractions:
+Let's see how the monthly submissions data looks when compared to our yearly
+predictions modulated by the monthly fractions:
 
 ![Inner quartile predictions]({{ relative }}images/modeled_quartiles.png)
 
@@ -114,7 +114,7 @@ submissions goal:
 
 ![Inner quartile predictions]({{ relative }}images/linlog_quartiles.png)
 
-There are certaily a significant number of data points that lie outside the
+There are certainly a significant number of data points that lie outside the
 shaded regions, but we do appear to be roughly capturing some of the wiggles.
 
 Making a Prediction
@@ -126,15 +126,15 @@ uniformly from the fractions of yearly submissions the month in question has
 had historically. This allows us to calculate a probability for each upcoming
 month to have a number of submissions in excess of 10,000:
 
-![Probabilities of greater than 10,000 montly submissions]({{ relative }}images/prob_greater.png)
+![Probabilities of greater than 10,000 monthly submissions]({{ relative }}images/prob_greater.png)
 
 The probability that a given month will be the first to have 10,000 submissions
-will then be the probability that none of the preceeding months had 10,000
+will then be the probability that none of the preceding months had 10,000
 submissions times the probability that the given month will. Using this, we can
 come up with probabilities for upcoming months to be the first month to have
 10,000 submissions:
 
-![Probabilities of being the first month with 10,000 probabilities]({{ relative }}images/prob_first.png)
+![Probabilities of being the first month with 10,000 monthly submissions]({{ relative }}images/prob_first.png)
 
 Using our model, we assign a probability of 99.35% that the arXiv will see a
 month with at least 10,000 submissions in 2016. Now we just need to wait and
