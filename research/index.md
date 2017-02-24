@@ -63,6 +63,12 @@ job).
   [17th annual SQuInT workshop][squint15],
   Berkeley, CA, February 20, 2015 ([browsercast][bc], [slides][slides])
 
+## Posters
+
+* *Rank deficiency and the Euclidean geometry of quantum states*,
+  [19th annual SQuInT workshop][squint17], Baton Rouge, LA, February 23, 2017
+  ([abstract][squint17abs], [web formatted][squint17poster])
+
 [browsercast]: https://github.com/ReDEnergy/Browsercast
 [png]: http://www.libpng.org/pub/png/
 [svg]: http://www.w3.org/Graphics/SVG/
@@ -87,3 +93,6 @@ job).
 [aps16slides]: https://jarthurgross.github.io/apsmarch2016
 [sydney16slides]: https://jarthurgross.github.io/sydney2016
 [rdegqsbc]: http://jarthurgross.github.io/rank-deficiency-2016
+[squint17]: http://physics.unm.edu/SQuInT/2017/
+[squint17abs]: http://physics.unm.edu/SQuInT/2017/abstracts.php?person_id=486
+[squint17poster]: {{ relative }}docs/squint-2017-poster
