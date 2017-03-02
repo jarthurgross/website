@@ -22,6 +22,8 @@ tomographic schemes employing weak measurements.
 Here is a list of my papers.
 
 * *Fisher-symmetric informationally complete measurements for pure states*,
+  Phys. Rev. Lett. **116**, 180402 (2016),
+  doi:[10.1103/PhysRevLett.116.180402][fishsymmdoi],
   arXiv:[1507.06904][fisherpurearxiv].
 * *Novelty, efficacy, and significance of weak measurements for quantum
   tomography*, Phys. Rev. A **92**, 062133 (2015),
@@ -96,3 +98,4 @@ job).
 [squint17]: http://physics.unm.edu/SQuInT/2017/
 [squint17abs]: http://physics.unm.edu/SQuInT/2017/abstracts.php?person_id=486
 [squint17poster]: {{ relative }}docs/squint-2017-poster
+[fishsymmdoi]: https://doi.org/10.1103/PhysRevLett.116.180402
