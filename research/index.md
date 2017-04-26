@@ -19,8 +19,9 @@ tomographic schemes employing weak measurements.
 
 ## Papers
 
-Here is a list of my papers.
-
+* *QInfer: Statistical inference software for quantum applications*,
+  Quantum 1, 5 (2017), doi:[10.22331/q-2017-04-25-5][qinferdoi],
+  arXiv:[1610.00336][qinferarxiv].
 * *Fisher-symmetric informationally complete measurements for pure states*,
   Phys. Rev. Lett. **116**, 180402 (2016),
   doi:[10.1103/PhysRevLett.116.180402][fishsymmdoi],
@@ -99,3 +100,5 @@ job).
 [squint17abs]: http://physics.unm.edu/SQuInT/2017/abstracts.php?person_id=486
 [squint17poster]: {{ relative }}docs/squint-2017-poster
 [fishsymmdoi]: https://doi.org/10.1103/PhysRevLett.116.180402
+[qinferdoi]: https://doi.org/10.22331/q-2017-04-25-5
+[qinferarxiv]: https://arxiv.org/abs/1610.00336
