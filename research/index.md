@@ -47,6 +47,8 @@ but doesn't have good support in Chrome (although I just started playing around
 with the [Math anywhere][mathanywhere] Chrome extension, which does a decent
 job).
 
+* *Rank deficiency and the Euclidean geometry of quantum states*, 2017 APS March
+  Meeting, New Orleans, LA, March 13, 2017 (abstract: [A52.00002][aps17abs])
 * *Rank deficiency and the Euclidean geometry of quantum states*, CQuIC
   internal talk, Albuquerque, NM, October 26, 2016 ([browsercast][rdegqsbc])
 * *Fisher symmetry and the geometry of quantum states*, University of Sydney,
@@ -102,3 +104,4 @@ job).
 [fishsymmdoi]: https://doi.org/10.1103/PhysRevLett.116.180402
 [qinferdoi]: https://doi.org/10.22331/q-2017-04-25-5
 [qinferarxiv]: https://arxiv.org/abs/1610.00336
+[aps17abs]: http://meetings.aps.org/Meeting/MAR17/Session/A52.2
