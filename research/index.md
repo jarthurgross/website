@@ -8,10 +8,10 @@ title: Research interests
 
 # Research interests
 
-My research interests currently include quantum measurement theory and
-geometric properties of quantum state space. I have also done work studying
-open-quantum-system dynamics (particularly stochastic evolution) and evaluating
-tomographic schemes employing weak measurements.
+My research interests currently focus on quantum measurement theory and
+geometric properties of quantum state space. I also study
+open-quantum-system dynamics (particularly stochastic evolution) and have
+evaluated tomographic schemes employing weak measurements.
 
 * ResearcherID: [M-5661-2014][rid]
 * ORCID: [0000-0001-7049-6206][orcid]
@@ -19,6 +19,8 @@ tomographic schemes employing weak measurements.
 
 ## Papers
 
+* *Qubit models of weak continuous measurements*,
+  arXiv:[1710.09523][contmeasarxiv].
 * *QInfer: Statistical inference software for quantum applications*,
   Quantum 1, 5 (2017), doi:[10.22331/q-2017-04-25-5][qinferdoi],
   arXiv:[1610.00336][qinferarxiv].
@@ -105,3 +107,4 @@ job).
 [qinferdoi]: https://doi.org/10.22331/q-2017-04-25-5
 [qinferarxiv]: https://arxiv.org/abs/1610.00336
 [aps17abs]: http://meetings.aps.org/Meeting/MAR17/Session/A52.2
+[contmeasarxiv]: https://arxiv.org/abs/1710.09523
