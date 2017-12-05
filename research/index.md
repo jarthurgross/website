@@ -49,12 +49,16 @@ but doesn't have good support in Chrome (although I just started playing around
 with the [Math anywhere][mathanywhere] Chrome extension, which does a decent
 job).
 
+* *Digital noise: Qubit models of weak continuous measurements*, Griffith
+  University, Brisbane, QLD, December 4, 2017
+* *Quantum tomography: where are the spherical cows?*, University of Queensland,
+  Brisbane, QLD, November 7, 2017
 * *Rank deficiency and the Euclidean geometry of quantum states*, 2017 APS March
   Meeting, New Orleans, LA, March 13, 2017 (abstract: [A52.00002][aps17abs])
 * *Rank deficiency and the Euclidean geometry of quantum states*, CQuIC
   internal talk, Albuquerque, NM, October 26, 2016 ([browsercast][rdegqsbc])
 * *Fisher symmetry and the geometry of quantum states*, University of Sydney,
-  May 12, 2016 ([slides][sydney16slides])
+  Sydney, NSW, May 12, 2016 ([slides][sydney16slides])
 * *Fisher symmetry and the geometry of quantum states*, 2016 APS March Meeting,
   Baltimore, MD, March 16, 2016 (abstract: [L44.00012][aps16abs],
   [slides][aps16slides])
