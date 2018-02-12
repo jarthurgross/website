@@ -19,19 +19,36 @@ evaluated tomographic schemes employing weak measurements.
 
 ## Papers
 
-* *Qubit models of weak continuous measurements*,
-  arXiv:[1710.09523][contmeasarxiv].
-* *QInfer: Statistical inference software for quantum applications*,
-  Quantum 1, 5 (2017), doi:[10.22331/q-2017-04-25-5][qinferdoi],
-  arXiv:[1610.00336][qinferarxiv].
-* *Fisher-symmetric informationally complete measurements for pure states*,
+* *Qubit models of weak continuous measurements: Markovian conditional and
+  open-system dynamics*  
+  JAG, Carlton M. Caves, Gerard J. Milburn, and Joshua
+  Combes  
+  Quantum Sci. Technol. **3** 024005 (2018),
+  DOI:[10.1088/2058-9565/aaa39f][constmeasdoi],
+  arXiv:[1710.09523][contmeasarxiv]
+* *QInfer: Statistical inference software for quantum applications*  
+  Christopher Granade, Christopher Ferrie, Ian Hincks, Steven Casagrande,
+  Thomas Alexander, JAG, Michal Kononenko, and Yuval Sanders  
+  Quantum **1**, 5 (2017), DOI:[10.22331/q-2017-04-25-5][qinferdoi],
+  arXiv:[1610.00336][qinferarxiv]
+* *Fisher-symmetric informationally complete measurements for pure states*  
+  Nan Li, Christopher Ferrie, JAG, Amir Kalev, and Carlton M. Caves  
   Phys. Rev. Lett. **116**, 180402 (2016),
-  doi:[10.1103/PhysRevLett.116.180402][fishsymmdoi],
-  arXiv:[1507.06904][fisherpurearxiv].
+  DOI:[10.1103/PhysRevLett.116.180402][fishsymmdoi],
+  arXiv:[1507.06904][fisherpurearxiv]
 * *Novelty, efficacy, and significance of weak measurements for quantum
-  tomography*, Phys. Rev. A **92**, 062133 (2015),
-  doi:[10.1103/PhysRevA.92.062133][weakmeastomodoi],
-  arXiv:[1506.08892][weakmeastomoarxiv].
+  tomography*  
+  JAG, Ninnat Dangniam, Christopher Ferrie, and Carlton M. Caves  
+  Phys. Rev. A **92**, 062133 (2015),
+  DOI:[10.1103/PhysRevA.92.062133][weakmeastomodoi],
+  arXiv:[1506.08892][weakmeastomoarxiv]
+
+## Preprints
+
+* *Optimal and secure measurement protocols for quantum sensor networks*  
+  Zachary Eldredge, Michael Foss-Feig, JAG, Steven L. Rolston, and Alexey V.
+  Gorshkov  
+  arXiv:[1607.04646][sensnetarxiv]
 
 ## Talks
 
@@ -112,3 +129,5 @@ job).
 [qinferarxiv]: https://arxiv.org/abs/1610.00336
 [aps17abs]: http://meetings.aps.org/Meeting/MAR17/Session/A52.2
 [contmeasarxiv]: https://arxiv.org/abs/1710.09523
+[constmeasdoi]: https://doi.org/10.1088/2058-9565/aaa39f
+[sensnetarxiv]: https://arxiv.org/abs/1607.04646
