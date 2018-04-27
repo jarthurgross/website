@@ -19,6 +19,12 @@ evaluated tomographic schemes employing weak measurements.
 
 ## Papers
 
+* *Optimal and secure measurement protocols for quantum sensor networks*  
+  Zachary Eldredge, Michael Foss-Feig, JAG, S. L. Rolston, and Alexey V.
+  Gorshkov  
+  Phys. Rev. A **97**, 042337 (2018),
+  DOI:[10.1103/PhysRevA.97.042337][sensnetdoi],
+  arXiv:[1607.04646][sensnetarxiv]
 * *Qubit models of weak continuous measurements: Markovian conditional and
   open-system dynamics*  
   JAG, Carlton M. Caves, Gerard J. Milburn, and Joshua
@@ -42,13 +48,6 @@ evaluated tomographic schemes employing weak measurements.
   Phys. Rev. A **92**, 062133 (2015),
   DOI:[10.1103/PhysRevA.92.062133][weakmeastomodoi],
   arXiv:[1506.08892][weakmeastomoarxiv]
-
-## Preprints
-
-* *Optimal and secure measurement protocols for quantum sensor networks*  
-  Zachary Eldredge, Michael Foss-Feig, JAG, Steven L. Rolston, and Alexey V.
-  Gorshkov  
-  arXiv:[1607.04646][sensnetarxiv]
 
 ## Talks
 
@@ -131,3 +130,4 @@ job).
 [contmeasarxiv]: https://arxiv.org/abs/1710.09523
 [constmeasdoi]: https://doi.org/10.1088/2058-9565/aaa39f
 [sensnetarxiv]: https://arxiv.org/abs/1607.04646
+[sensnetdoi]: https://doi.org/10.1103/PhysRevA.97.042337
