@@ -65,12 +65,19 @@ but doesn't have good support in Chrome (although I just started playing around
 with the [Math anywhere][mathanywhere] Chrome extension, which does a decent
 job).
 
+* *Caution! Sharp edges of quantum state space*, UC Berkeley, Berkeley, CA,
+  March 14, 2018
+* *On Pins and Needles: The Geometry of Quantum Measurements*, 2018 APS March
+  Meeting, Los Angeles, CA, March 7, 2018 (abstract: [L28.00013][aps18abs])
+* *Caution! Sharp edges of quantum state space*, Université de Sherbrooke,
+  Sherbrooke, QC, January 31, 2018 ([abstract][sherbrookeabs])
 * *Digital noise: Qubit models of weak continuous measurements*, Griffith
   University, Brisbane, QLD, December 4, 2017
-* *Quantum tomography: where are the spherical cows?*, University of Queensland,
-  Brisbane, QLD, November 7, 2017
-* *Rank deficiency and the Euclidean geometry of quantum states*, 2017 APS March
-  Meeting, New Orleans, LA, March 13, 2017 (abstract: [A52.00002][aps17abs])
+* *Quantum tomography: where are the spherical cows?*, University of
+  Queensland, Brisbane, QLD, November 7, 2017
+* *Rank deficiency and the Euclidean geometry of quantum states*, 2017 APS
+  March Meeting, New Orleans, LA, March 13, 2017 (abstract:
+  [A52.00002][aps17abs])
 * *Rank deficiency and the Euclidean geometry of quantum states*, CQuIC
   internal talk, Albuquerque, NM, October 26, 2016 ([browsercast][rdegqsbc])
 * *Fisher symmetry and the geometry of quantum states*, University of Sydney,
@@ -131,3 +138,5 @@ job).
 [constmeasdoi]: https://doi.org/10.1088/2058-9565/aaa39f
 [sensnetarxiv]: https://arxiv.org/abs/1607.04646
 [sensnetdoi]: https://doi.org/10.1103/PhysRevA.97.042337
+[aps18abs]: http://meetings.aps.org/Meeting/MAR18/Session/L28.13
+[sherbrookeabs]: https://www.usherbrooke.ca/iq/evenements-iq/calendrier/jonathan-gross-university-of-new-mexico/
