@@ -1,3 +1,5 @@
 _site/
 _drafts/
 *~
+# ignore local ruby information from rbenv
+.ruby-version
