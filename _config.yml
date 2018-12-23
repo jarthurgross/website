@@ -9,7 +9,7 @@ source:      .
 destination: ./_site
 plugins_dir:     ./_plugins
 
-gems:
+plugins:
   - jekyll-pandoc
 
 future:      true
@@ -28,7 +28,7 @@ permalink:   date
 
 pandoc:
   format: html5
-  extensions: [smart, html-q-tags, mathml]
+  extensions: [html-q-tags, mathml]
 
 rdiscount:
   extensions: []
