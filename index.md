@@ -12,11 +12,14 @@ Welcome!
 <img id='portrait' src='{{ relative }}images/jonathan-a-gross.jpg'
   alt='Portrait of Jonathan A. Gross' />
 
-My name is Jonathan A. Gross, and I am a Ph.D. candidate at the University of
-New Mexico studying the theory of quantum information. I hope for this website
-to keep a public record of my research activities (such as talks and
-publications), as well as to provide a platform for sharing interesting things I
-happen upon during the course of my work.
+My name is Jonathan A. Gross, and I am a postdoc in Alexandre Blais' group at
+the University of Sherbrooke studying the theory of quantum information. I did
+my Ph.D. at the University of New Mexico under the supervision of Professor
+Carlton M. Caves.
+
+I hope for this website to keep a public record of my research activities (such
+as talks and publications), as well as to provide a platform for sharing
+interesting things I happen upon during the course of my work.
 
 I have a bachelor's degree in computer engineering from the University of
 Arizona, so much of what I find interesting outside my immediate research field
