@@ -65,6 +65,10 @@ but doesn't have good support in Chrome (although I just started playing around
 with the [Math anywhere][mathanywhere] Chrome extension, which does a decent
 job).
 
+* *One from many: Scalar estimation in a multiparameter context*, 2019 APS
+  March Meeting, Boston, MA, March 7, 2019 (abstract: [K28.00012][aps19abs])
+* *Systems illuminated by squeezed wave-packet modes*,
+  [Fall 2018 INTRIQ Meeting][intriq18], Bromont, QC, November 14, 2018
 * *Caution! Sharp edges of quantum state space*, UC Berkeley, Berkeley, CA,
   March 14, 2018
 * *On Pins and Needles: The Geometry of Quantum Measurements*, 2018 APS March
@@ -140,3 +144,5 @@ job).
 [sensnetdoi]: https://doi.org/10.1103/PhysRevA.97.042337
 [aps18abs]: http://meetings.aps.org/Meeting/MAR18/Session/L28.13
 [sherbrookeabs]: https://www.usherbrooke.ca/iq/evenements-iq/calendrier/jonathan-gross-university-of-new-mexico/
+[intriq18]: https://www.intriq.org/index.php?mact=News,cntnt01,detail,0&cntnt01articleid=45&cntnt01detailtemplate=INTRIQ_Details_article&cntnt01returnid=33
+[aps19abs]: http://meetings.aps.org/Meeting/MAR19/Session/K28.12
