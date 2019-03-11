@@ -8,6 +8,9 @@ body {
 img {
   width: 100%;
 }
+img.smallimg {
+  width: 50%;
+}
 figcaption {
   text-align: center;
 }
