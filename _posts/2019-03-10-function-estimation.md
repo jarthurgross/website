@@ -72,7 +72,7 @@ $\theta^1+\theta^2$, just with variance inversely proportional to the number of
 samples drawn. Calculate this marginal covariance by reparametrizing the
 distribution with $\mathrm{\Upsilon}_\pm=x\pm y$
 
-$$\frac{1}{2}\int d\mathrm{\Upsilon}_+\int d\mathrm{\Upsilon}_-\,\mathrm{\Upsilon}_+^2
+$$\frac{1}{2}\int d\mathrm{\Upsilon}_+\int d\mathrm{\Upsilon}_-\,(\mathrm{\Upsilon}_+-\langle\mathrm{\Upsilon}_+\rangle)^2
 P\left(\frac{\mathrm{\Upsilon}_++\mathrm{\Upsilon}_-}{2},
 \frac{\mathrm{\Upsilon}_+-\mathrm{\Upsilon}_-}{2}\right)=5$$
 
