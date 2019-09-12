@@ -19,6 +19,11 @@ evaluated tomographic schemes employing weak measurements.
 
 ## Papers
 
+* *Bias-preserving gates with stabilized cat qubits*  
+  Shruti Puri, Lucas St-Jean, JAG, Alexander Grimm, N. E. Frattini, Pavithran
+  S. Iyer, Anirudh Krishna, Steven Touzard, Liang Jiang, Alexandre Blais,
+  Steven T. Flammia, and S. M. Girvin  
+  arXiv:[1905.00450][biaspresarxiv]
 * *Optimal and secure measurement protocols for quantum sensor networks*  
   Zachary Eldredge, Michael Foss-Feig, JAG, S. L. Rolston, and Alexey V.
   Gorshkov  
@@ -148,3 +153,4 @@ job).
 [intriq18]: https://www.intriq.org/index.php?mact=News,cntnt01,detail,0&cntnt01articleid=45&cntnt01detailtemplate=INTRIQ_Details_article&cntnt01returnid=33
 [aps19abs]: http://meetings.aps.org/Meeting/MAR19/Session/K28.12
 [aps19slides]: https://jarthurgross.github.io/apsmarch2019
+[biaspresarxiv]: https://arxiv.org/abs/1905.00450
