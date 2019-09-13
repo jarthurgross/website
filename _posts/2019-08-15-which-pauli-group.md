@@ -19,7 +19,7 @@ $\sigma_y$, and $\sigma_z$. Multiplying these together in different
 combinations yields the Pauli matrices, together with the identity, multiplied
 by factors of $\pm1$ and $\pm i$. This is a group with 16 elements, and
 masquerades under the name [$\mathrm{C}_4\circ
-\mathrm{D}_44$](https://people.maths.bris.ac.uk/~matyd/GroupNames/1/C4oD4.html)
+\mathrm{D}_4$](https://people.maths.bris.ac.uk/~matyd/GroupNames/1/C4oD4.html)
 on [GroupNames](https://people.maths.bris.ac.uk/~matyd/GroupNames/index.html),
 though happily "Pauli group" is given as one of its aliases.
 
