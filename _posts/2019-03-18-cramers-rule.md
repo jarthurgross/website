@@ -47,7 +47,7 @@ $$(Adx)\wedge(Ady)=\det(A)\,dx\wedge dy.$$
 
 Now let's play around with our equation a bit to try and get determinants into
 the picture. Start by wedging $Ady$ on the right of both sides of the equation:
-$$Ad\alpha\wedge Ady=d\beta\wedge dy.$$
+$$Ad\alpha\wedge Ady=d\beta\wedge Ady.$$
 The left-hand side looks promising, so develop it further:
 $$Ad\alpha\wedge Ady=\det(A)\,d\alpha\wedge dy=\det(A)x\,dx\wedge dy.$$
 Now what to do about the right hand side? Let's define two new linear maps by
