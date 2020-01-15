@@ -70,6 +70,12 @@ but doesn't have good support in Chrome (although I just started playing around
 with the [Math anywhere][mathanywhere] Chrome extension, which does a decent
 job).
 
+* *GKP-inspired quantum error-correcting codes*, Byron Bay Quantum Workshop,
+  Byron Bay, NSW, November 27, 2019
+* *One from many: Scalar estimation in a multiparameter context*, University of
+  Sydney, November 15, 2019
+* *One from many: Scalar estimation in a multiparameter context*, University of
+  Palermo, July 31, 2019
 * *One from many: Scalar estimation in a multiparameter context*, 2019 APS
   March Meeting, Boston, MA, March 7, 2019 (abstract: [K28.00012][aps19abs],
   [slides][aps19slides])
