@@ -87,7 +87,8 @@ job).
 * *Caution! Sharp edges of quantum state space*, UC Berkeley, Berkeley, CA,
   March 14, 2018
 * *On Pins and Needles: The Geometry of Quantum Measurements*, 2018 APS March
-  Meeting, Los Angeles, CA, March 7, 2018 (abstract: [L28.00013][aps18abs])
+  Meeting, Los Angeles, CA, March 7, 2018 (abstract: [L28.00013][aps18abs],
+  [slides][aps18slides])
 * *Caution! Sharp edges of quantum state space*, Université de Sherbrooke,
   Sherbrooke, QC, January 31, 2018 ([abstract][sherbrookeabs])
 * *Digital noise: Qubit models of weak continuous measurements*, Griffith
@@ -158,6 +159,7 @@ job).
 [sensnetarxiv]: https://arxiv.org/abs/1607.04646
 [sensnetdoi]: https://doi.org/10.1103/PhysRevA.97.042337
 [aps18abs]: http://meetings.aps.org/Meeting/MAR18/Session/L28.13
+[aps18slides]: https://jarthurgross.github.io/apsmarch2018
 [sherbrookeabs]: https://www.usherbrooke.ca/iq/evenements-iq/calendrier/jonathan-gross-university-of-new-mexico/
 [intriq18]: https://www.intriq.org/index.php?mact=News,cntnt01,detail,0&cntnt01articleid=45&cntnt01detailtemplate=INTRIQ_Details_article&cntnt01returnid=33
 [aps19abs]: http://meetings.aps.org/Meeting/MAR19/Session/K28.12
