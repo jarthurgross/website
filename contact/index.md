@@ -27,35 +27,6 @@ your email more secure, you may find the following link helpful:
 [Thunderbird][thunderbird] in the past, but am currently using
 [Mailvelope][mailvelope] in [Firefox][firefox].
 
-Mailing address
----------------
-
-If you must mail me something, you may send it to my mailbox in the UNM Physics
-Department:
-
-<address>
-  <span itemprop="fn">
-    <span itemprop="n" itemscope>
-      <span itemprop="given-name">Jonathan</span>
-      <span itemprop="family-name">Gross</span>
-    </span>
-  </span>
-  <br/>
-  <span itemprop="org" itemscope>
-    <span itemprop="organization-name">Department of Physics and
-    Astronomy</span>
-  </span>
-  <br/>
-  <span itemprop="adr" itemscope>
-    <span itemprop="street-address">1919 Lomas Blvd NE</span>
-    <br/>
-    MSC07 4220
-    <br/>
-    <span itemprop="locality">Albuquerque</span>,
-    <span itemprop="region">NM</span>
-    <span itemprop="postal-code">87131-0001</span>
-  </span>
-</address>
 </div>
 
 [email]: mailto:azaghalofbelegost@gmail.com
