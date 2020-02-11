@@ -19,6 +19,9 @@ evaluated tomographic schemes employing weak measurements.
 
 ## Papers
 
+* *One from many: Estimating a function of many parameters*  
+  JAG and Carlton M. Caves  
+  arXiv:[2002.02898][onefrommanyarxiv]
 * *Bias-preserving gates with stabilized cat qubits*  
   Shruti Puri, Lucas St-Jean, JAG, Alexander Grimm, N. E. Frattini, Pavithran
   S. Iyer, Anirudh Krishna, Steven Touzard, Liang Jiang, Alexandre Blais,
@@ -160,3 +163,4 @@ job).
 [aps19abs]: http://meetings.aps.org/Meeting/MAR19/Session/K28.12
 [aps19slides]: https://jarthurgross.github.io/apsmarch2019
 [biaspresarxiv]: https://arxiv.org/abs/1905.00450
+[onefrommanyarxiv]: https://arxiv.org/abs/2002.02898
