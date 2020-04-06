@@ -8,10 +8,16 @@ title: Research interests
 
 # Research interests
 
-My research interests currently focus on quantum measurement theory and
-geometric properties of quantum state space. I also study
-open-quantum-system dynamics (particularly stochastic evolution) and have
-evaluated tomographic schemes employing weak measurements.
+My current research interests include:
+
+* Error correction for physically realistic noise models
+* Machine learning for quantum inference
+* Quantum measurement theory
+* Geometric properties of quantum state space
+* Open-quantum-system dynamics (particularly stochastic evolution)
+* Quantum-state tomography
+
+My various research profiles are:
 
 * ResearcherID: [M-5661-2014][rid]
 * ORCID: [0000-0001-7049-6206][orcid]
@@ -58,6 +64,8 @@ evaluated tomographic schemes employing weak measurements.
   arXiv:[1506.08892][weakmeastomoarxiv]
 
 ## Talks
+
+### Presented
 
 Here is a list of talks I have given or am scheduled to give. I provide them in
 two formats: [browsercast][browsercast] (which plays the audio back in sync
@@ -117,6 +125,16 @@ job).
   [17th annual SQuInT workshop][squint15],
   Berkeley, CA, February 20, 2015 ([browsercast][bc], [slides][slides])
 
+### Affiliated
+
+Here are talks that I have not personally given, but are based on projects in which I am heavily involved.
+
+* *Quantum-tailored machine-learning architectures*  
+  Élie Genois, Agustin Di Paolo, Alexandre Blais, JAG  
+  2020 APS March Meeting, Denver, CO, March 2, 2020,
+  [A17.00011][aps20elie]
+
+
 ## Posters
 
 * *Rank deficiency and the Euclidean geometry of quantum states*,
@@ -166,3 +184,4 @@ job).
 [aps19slides]: https://jarthurgross.github.io/apsmarch2019
 [biaspresarxiv]: https://arxiv.org/abs/1905.00450
 [onefrommanyarxiv]: https://arxiv.org/abs/2002.02898
+[aps20elie]: https://virtualmarchmeeting.com/presentations/quantum-tailored-machine-learning-architectures
