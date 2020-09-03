@@ -25,6 +25,9 @@ My various research profiles are:
 
 ## Papers
 
+* *Encoding a qubit in a spin*  
+  JAG
+  arXiv:[2005.10910][encodingarxiv]
 * *One from many: Estimating a function of many parameters*  
   JAG and Carlton M. Caves  
   arXiv:[2002.02898][onefrommanyarxiv]
@@ -185,3 +188,4 @@ Here are talks that I have not personally given, but are based on projects in wh
 [biaspresarxiv]: https://arxiv.org/abs/1905.00450
 [onefrommanyarxiv]: https://arxiv.org/abs/2002.02898
 [aps20elie]: https://virtualmarchmeeting.com/presentations/quantum-tailored-machine-learning-architectures
+[encodingarxiv]: https://arxiv.org/abs/2005.10910
