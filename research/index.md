@@ -25,16 +25,23 @@ My various research profiles are:
 
 ## Papers
 
-* *Encoding a qubit in a spin*  
-  JAG
+* *Designing codes around interactions: The case of a spin*  
+  JAG  
+  Phys. Rev. Lett. **127**, 010504 (2021),
+  DOI:[10.1103/PhysRevLett.127.010504][encodingdoi],  
+  Preprint: *Encoding a qubit in a spin*,
   arXiv:[2005.10910][encodingarxiv]
 * *One from many: Estimating a function of many parameters*  
   JAG and Carlton M. Caves  
+  J. Phys. A: Math. Theor. **54** 014001 (2020),
+  DOI:[10.1088/1751-8121/abb9ed][onefrommanydoi],
   arXiv:[2002.02898][onefrommanyarxiv]
 * *Bias-preserving gates with stabilized cat qubits*  
   Shruti Puri, Lucas St-Jean, JAG, Alexander Grimm, N. E. Frattini, Pavithran
   S. Iyer, Anirudh Krishna, Steven Touzard, Liang Jiang, Alexandre Blais,
   Steven T. Flammia, and S. M. Girvin  
+  Science Advances Vol. 6, no. 34, eaay5901 (2020),
+  DOI:[10.1126/sciadv.aay5901][biaspresdoi],
   arXiv:[1905.00450][biaspresarxiv]
 * *Optimal and secure measurement protocols for quantum sensor networks*  
   Zachary Eldredge, Michael Foss-Feig, JAG, S. L. Rolston, and Alexey V.
@@ -186,6 +193,9 @@ Here are talks that I have not personally given, but are based on projects in wh
 [aps19abs]: http://meetings.aps.org/Meeting/MAR19/Session/K28.12
 [aps19slides]: https://jarthurgross.github.io/apsmarch2019
 [biaspresarxiv]: https://arxiv.org/abs/1905.00450
+[biaspresdoi]: https://doi.org/10.1126/sciadv.aay5901
 [onefrommanyarxiv]: https://arxiv.org/abs/2002.02898
+[onefrommanydoi]: https://doi.org/10.1088/1751-8121/abb9ed
 [aps20elie]: https://virtualmarchmeeting.com/presentations/quantum-tailored-machine-learning-architectures
 [encodingarxiv]: https://arxiv.org/abs/2005.10910
+[encodingdoi]: https://doi.org/10.1103/PhysRevLett.127.010504
