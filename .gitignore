@@ -2,5 +2,6 @@ _site/
 _drafts/
 *~
 .DS_Store
+.jekyll-cache
 # ignore local ruby information from rbenv
 .ruby-version

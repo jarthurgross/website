@@ -1,8 +1,9 @@
 website
 =======
 
-Source files that jekyll uses to create my UNM
-[website](http://www.unm.edu/~jagross). Does not include drafts folder.
+Source files that jekyll uses to create my
+[website](https://jarthurgross.name).
+Does not include drafts folder.
 
 ## License
 
