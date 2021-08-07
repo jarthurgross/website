@@ -7,7 +7,7 @@ How it's made
 =============
 
 This website is statically generated on my computer using [jekyll][jk] and
-uploaded my webserver using [rsync][rs].
+uploaded to my webserver using [rsync][rs].
 This allows me many of the
 conveniences of a <dfn title="Content Management System">CMS</dfn> without
 requiring the use of backend scripting (such as
