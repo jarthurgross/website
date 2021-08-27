@@ -5,8 +5,8 @@ layout: null
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Well-Squared Circle</title>
-    <link>http://www.unm.edu/~jagross/blog/</link>
-    <atom:link href="http://www.unm.edu/~jagross/blog/rss.xml" rel="self" type="application/rss+xml" />
+    <link>https://jarthurgross.name/blog/</link>
+    <atom:link href="https://jarthurgross.name/blog/rss.xml" rel="self" type="application/rss+xml" />
     <description>The Well-Squared Circle</description>
     <language>en-us</language>
     <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
@@ -15,10 +15,10 @@ layout: null
     {% for post in site.posts %}
     <item>
       <title>{{ post.title }}</title>
-      <link>http://www.unm.edu/~jagross{{ post.url }}</link>
+      <link>https://jarthurgross.name{{ post.url }}</link>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
       <author>azaghalofbelegost@gmail.com (Jonathan Gross)</author>
-      <guid>http://www.unm.edu/~jagross{{ post.id }}</guid>
+      <guid>https://jarthurgross.name{{ post.id }}</guid>
       <description>{{ post.content | xml_escape }}</description>
     </item>
     {% endfor %}
