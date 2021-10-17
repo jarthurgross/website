@@ -29,8 +29,14 @@ My various research profiles are:
   JAG  
   Phys. Rev. Lett. **127**, 010504 (2021),
   DOI:[10.1103/PhysRevLett.127.010504][encodingdoi],  
+  [Published PDF][encodingpub],
   Preprint: *Encoding a qubit in a spin*,
   arXiv:[2005.10910][encodingarxiv]
+* *Collisional picture of quantum optics with giant emitters*  
+  Dario Cilluffo, Angelo Carollo, Salvatore Lorenzo, JAG, G. Massimo Palma, and Francesco Ciccarello
+  Phys. Rev. Research **2**, 043070 (2020),
+  DOI:[10.1103/PhysRevResearch.2.043070][collisiondoi],  
+  arXiv:[2006.08631][collisionarxiv]
 * *One from many: Estimating a function of many parameters*  
   JAG and Carlton M. Caves  
   J. Phys. A: Math. Theor. **54** 014001 (2020),
@@ -47,14 +53,16 @@ My various research profiles are:
   Zachary Eldredge, Michael Foss-Feig, JAG, S. L. Rolston, and Alexey V.
   Gorshkov  
   Phys. Rev. A **97**, 042337 (2018),
-  DOI:[10.1103/PhysRevA.97.042337][sensnetdoi],
+  DOI:[10.1103/PhysRevA.97.042337][sensnetdoi],  
+  [Published PDF][sensnetpub],
   arXiv:[1607.04646][sensnetarxiv]
 * *Qubit models of weak continuous measurements: Markovian conditional and
   open-system dynamics*  
   JAG, Carlton M. Caves, Gerard J. Milburn, and Joshua
   Combes  
   Quantum Sci. Technol. **3** 024005 (2018),
-  DOI:[10.1088/2058-9565/aaa39f][constmeasdoi],
+  DOI:[10.1088/2058-9565/aaa39f][contmeasdoi],  
+  [Published PDF][contmeaspub],
   arXiv:[1710.09523][contmeasarxiv]
 * *QInfer: Statistical inference software for quantum applications*  
   Christopher Granade, Christopher Ferrie, Ian Hincks, Steven Casagrande,
@@ -64,13 +72,15 @@ My various research profiles are:
 * *Fisher-symmetric informationally complete measurements for pure states*  
   Nan Li, Christopher Ferrie, JAG, Amir Kalev, and Carlton M. Caves  
   Phys. Rev. Lett. **116**, 180402 (2016),
-  DOI:[10.1103/PhysRevLett.116.180402][fishsymmdoi],
+  DOI:[10.1103/PhysRevLett.116.180402][fishsymmdoi],  
+  [Published PDF][fishsymmpub],
   arXiv:[1507.06904][fisherpurearxiv]
 * *Novelty, efficacy, and significance of weak measurements for quantum
   tomography*  
   JAG, Ninnat Dangniam, Christopher Ferrie, and Carlton M. Caves  
   Phys. Rev. A **92**, 062133 (2015),
-  DOI:[10.1103/PhysRevA.92.062133][weakmeastomodoi],
+  DOI:[10.1103/PhysRevA.92.062133][weakmeastomodoi],  
+  [Published PDF][weakmeastomopub],
   arXiv:[1506.08892][weakmeastomoarxiv]
 
 ## Talks
@@ -160,9 +170,9 @@ Here are talks that I have not personally given, but are based on projects in wh
 [aps15bc]: http://jarthurgross.github.io/apsmarch2015
 [aps15abs]: http://meetings.aps.org/link/BAPS.2015.MAR.M38.4
 [squint15]: http://physics.unm.edu/SQuInT/2015/index.php
-[fisherpurearxiv]: http://arxiv.org/abs/1507.06904
 [weakmeastomoarxiv]: http://arxiv.org/abs/1506.08892
 [weakmeastomodoi]: http://dx.doi.org/10.1103/PhysRevA.92.062133
+[weakmeastomopub]: {{ relative }}docs/papers/gross_novelty_2015.pdf
 [fsgqsbc]: http://jarthurgross.github.io/fisher-symmetric-2015
 [mathanywhere]: https://github.com/andrusha/mathml-chrome
 [rid]: http://www.researcherid.com/rid/M-5661-2014
@@ -178,14 +188,18 @@ Here are talks that I have not personally given, but are based on projects in wh
 [squint17]: http://physics.unm.edu/SQuInT/2017/
 [squint17abs]: http://physics.unm.edu/SQuInT/2017/abstracts.php?person_id=486
 [squint17poster]: {{ relative }}docs/squint-2017-poster
+[fisherpurearxiv]: http://arxiv.org/abs/1507.06904
 [fishsymmdoi]: https://doi.org/10.1103/PhysRevLett.116.180402
+[fishsymmpub]: {{ relative }}docs/papers/li_fisher-symmetric_2016.pdf
 [qinferdoi]: https://doi.org/10.22331/q-2017-04-25-5
 [qinferarxiv]: https://arxiv.org/abs/1610.00336
 [aps17abs]: http://meetings.aps.org/Meeting/MAR17/Session/A52.2
 [contmeasarxiv]: https://arxiv.org/abs/1710.09523
-[constmeasdoi]: https://doi.org/10.1088/2058-9565/aaa39f
+[contmeasdoi]: https://doi.org/10.1088/2058-9565/aaa39f
+[contmeaspub]: {{ relative }}docs/papers/gross_qubit_2017.pdf
 [sensnetarxiv]: https://arxiv.org/abs/1607.04646
 [sensnetdoi]: https://doi.org/10.1103/PhysRevA.97.042337
+[sensnetpub]: {{ relative }}docs/papers/eldredge_optimal_2018.pdf
 [aps18abs]: http://meetings.aps.org/Meeting/MAR18/Session/L28.13
 [aps18slides]: https://jarthurgross.github.io/apsmarch2018
 [sherbrookeabs]: https://www.usherbrooke.ca/iq/evenements-iq/calendrier/jonathan-gross-university-of-new-mexico/
@@ -199,3 +213,6 @@ Here are talks that I have not personally given, but are based on projects in wh
 [aps20elie]: https://virtualmarchmeeting.com/presentations/quantum-tailored-machine-learning-architectures
 [encodingarxiv]: https://arxiv.org/abs/2005.10910
 [encodingdoi]: https://doi.org/10.1103/PhysRevLett.127.010504
+[encodingpub]: {{ relative }}docs/papers/gross_designing_2021.pdf
+[collisiondoi]: https://doi.org/10.1103/PhysRevResearch.2.043070
+[collisionarxiv]: https://arxiv.org/abs/2006.08631
