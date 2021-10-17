@@ -25,6 +25,11 @@ My various research profiles are:
 
 ## Papers
 
+* *Fast and differentiable simulation of driven quantum systems*  
+  Ross Shillito, JAG, Agustin Di Paolo, Élie Genois, and Alexandre Blais  
+  Phys. Rev. Research **3**, 033266 (2021),
+  DOI:[10.1103/PhysRevResearch.3.033266][fastdoi],  
+  arXiv:[2012.09282][fastarxiv]
 * *Designing codes around interactions: The case of a spin*  
   JAG  
   Phys. Rev. Lett. **127**, 010504 (2021),
@@ -216,3 +221,5 @@ Here are talks that I have not personally given, but are based on projects in wh
 [encodingpub]: {{ relative }}docs/papers/gross_designing_2021.pdf
 [collisiondoi]: https://doi.org/10.1103/PhysRevResearch.2.043070
 [collisionarxiv]: https://arxiv.org/abs/2006.08631
+[fastdoi]: https://doi.org/10.1103/PhysRevResearch.3.033266
+[fastarxiv]: https://arxiv.org/abs/2012.09282
