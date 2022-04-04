@@ -32,9 +32,9 @@ The dagger $\dagger$ corresponds to the inverse in the Wikipedia definition, and
 
 Since SU(2) has only one fundamental representation, every SU(2) irrep shows up as a subspace of some tensor power of that fundamental representation.
 In particular, the $d$ dimensional irrep is the totally symmetric subspace of $(\mathbf{C}^2)^{\otimes d-1}$.
-Since SU(3) has two fundamental representations, every SU(3) irrep shows up as a subspace of tensor powers of both representations: $(\mathbf{C}^2)^{\otimes p}\otimes(\mathbf{C}^{2*})^{\otimes q}$.
+Since SU(3) has two fundamental representations, every SU(3) irrep shows up as a subspace of tensor powers of both representations: $(\mathbf{C}^3)^{\otimes p}\otimes(\mathbf{C}^{3*})^{\otimes q}$.
 
-A prescription for generating the irrep associated with $p$ tensor powers of the standard irrep $\mathbf{C}^2$ and $q$ tensor powers of the dual irrep $\mathbf{C}^{2*}$ is to start with a "highest-weight" vector and apply lowering operators to that vector in all sequences until the vector is annihilated.
+A prescription for generating the irrep associated with $p$ tensor powers of the standard irrep $\mathbf{C}^3$ and $q$ tensor powers of the dual irrep $\mathbf{C}^{3*}$ is to start with a "highest-weight" vector and apply lowering operators to that vector in all sequences until the vector is annihilated.
 Weights are determined by a maximal linearly-independent set of commuting generators for the Lie algebra.
 
 For SU(2), the Lie algebra is the span of $\{-i\sigma_x,-i\sigma_y,-i\sigma_z\}$.
@@ -99,14 +99,14 @@ $$\begin{multline}
 (0,1)
 \end{multline}$$
 We then call $|2\rangle$ the highest-weight vector of the dual irrep (or perhaps better, we call $\langle 2|$ the highest-weight vector).
-The highest-weight vector for $(\mathbf{C}^2)^{\otimes p}\otimes(\mathbf{C}^{2*})^{\otimes q}$ is then $|0\rangle^{\otimes p}\otimes\langle 2|^{\otimes q}$.
+The highest-weight vector for $(\mathbf{C}^3)^{\otimes p}\otimes(\mathbf{C}^{3*})^{\otimes q}$ is then $|0\rangle^{\otimes p}\otimes\langle 2|^{\otimes q}$.
 The action of a Lie-algebra element $H$ on these tensor-product representations is again given by a sum of the action on each component, so, for example,
 $$H:|0\rangle\otimes|0\rangle\otimes\langle 2|\mapsto
 H|0\rangle\otimes|0\rangle\otimes\langle 2|+
 |0\rangle\otimes H|0\rangle\otimes\langle 2|-
 |0\rangle\otimes|0\rangle\otimes\langle 2|H$$
 This should look like a generalization of the commutator (it is the commutator for $p=q=1$).
-The highest weight in the $(\mathbf{C}^2)^{\otimes p}\otimes(\mathbf{C}^{2*})^{\otimes q}$ representation is $(p,q)$, so we'll use that to label the irrep we get by successively applying the lowering operators to the highest-weight vector.
+The highest weight in the $(\mathbf{C}^3)^{\otimes p}\otimes(\mathbf{C}^{3*})^{\otimes q}$ representation is $(p,q)$, so we'll use that to label the irrep we get by successively applying the lowering operators to the highest-weight vector.
 Because we have two linearly-independent commuting operators ($Z_{01}$ and $Z_{12}$), we have two lowering operators $S^-_{01}=|1\rangle\langle 0|$ and $S^-_{12}=|1\rangle\langle 2|$ that lower the eigenvalue of each of these operators.
 With that background, we're ready to code up our first construction of the SU(3) irreps.
 
