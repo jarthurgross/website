@@ -11,7 +11,7 @@ tags:
 {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 
 [Last time]({{ relative }}2021/11/27/numerical-su3-irreps.html) I shared some numerical code for generating the projector onto the SU(3) irrep $(p,q)$ within $(\mathbf{C}^3)^{\otimes p}\otimes(\mathbf{C}^{3*})^{\otimes q}$.
-This is an incredibly inefficient way to work with SU(3) irreps, though, since the dimenion of the ambient vector space in which everything is described is exponential in $p$ and $q$.
+This is an incredibly inefficient way to work with SU(3) irreps, though, since the dimension of the ambient vector space in which everything is described is exponential in $p$ and $q$.
 This post is going to take a step towards understanding a more intrinsic way of representing SU(3) irreps by focusing on the simplest irreps, which are of the form $(p,0)$.
 These irreps are simply defined as the totally symmetric subspaces of $(\mathbf{C}^3)^p$, and we can define a concrete basis for that subspace, identifying each element of that basis by the number of times 0, 1, and 2 show up in the tensor product:
 $$\begin{aligned}
@@ -47,7 +47,7 @@ $$\begin{aligned}
     \end{cases}
 \end{aligned}$$
 The reasoning behind this is that $H^{\otimes p}=H\otimes1\otimes\cdots1+\otimes1\otimes H\otimes\cdots\otimes1+\cdots$ is made of terms that act as identity on all but one of the tensor-product factors, so any matrix elements that are non zero must be between symmetric states where 0, 1, and 2 appear either an identical number of times ($\ell_0=r_0,\,\ell_1=r_1,\,\ell_2=r_2$) or a single basis element has been exchanged for another ($\ell_a=r_a+1,\,\ell_b+1=r_b,\,\ell_c=r_c$).
-Any other combination will result in two orthogonal $\mathbf{C}^3$ basis elements sandwhiching an identity, which leads to 0.
+Any other combination will result in two orthogonal $\mathbf{C}^3$ basis elements sandwiching an identity, which leads to 0.
 The "diagonal" case where 0, 1, and 2 show up in equal numbers on the left and the right works out like
 $$\begin{aligned}
 \langle a_0a_1a_2|H^{\oplus p}|a_0a_1a_2\rangle
@@ -94,22 +94,47 @@ a_1a_0!(a_1-1)!a_2!\langle0|H|1\rangle
 \sqrt{a_0a_1}H_{01}
 \end{aligned}$$
 Going from the first to the second line above, you can see there are $a_1$ different choices for the 1 on the right which we will match up with a 0 on the left.
-For each of those choices, there are $a_0!(a_1-1)!a_2!$ permutations permuting the 2s such that they match up with 2s on the left, permuting the remaining 1s such that they match up the the 1s on the left, and permuting the remaining 1 and all the 0s among the 0s on the left.
+For each of those choices, there are $a_0!(a_1-1)!a_2!$ permutations permuting the 2s such that they match up with the 2s on the left, permuting the remaining 1s such that they match up with the 1s on the left, and permuting the remaining 1 and all the 0s among the 0s on the left.
 Each of these permutations determines a single term in $H^{\oplus p}$ that is non zero, and that's the one where the $H$ is between the 0 and the 1.
 
 The unitary matrix elements are a little more involved, since there aren't so many terms that are identically zero like for the Lie-algebra elements.
+$$\begin{aligned}
+    \langle\ell_0\ell_1\ell_2|U^{\otimes n}|r_0r_1r_2\rangle
+    &=
+    \frac{n!\sum_{\pi\in S_n}\langle0|^{\otimes\ell_0}\langle1|^{\otimes\ell_1}\langle2|^{\otimes\ell_2}
+    U^{\otimes n}P_\pi|0\rangle^{\otimes r_0}|1\rangle^{\otimes r_1}|2\rangle^{\otimes r_2}}
+    {n!\sqrt{\ell_0!\ell_1!\ell_2!r_0!r_1r!_2!}}
+    \\
+    &=
+    \frac{\sum_d\prod_{j,k}U_{j,k}^{d_{jk}}N_d}
+    {\sqrt{\ell_0!\ell_1!\ell_2!r_0!r_1r!_2!}}
+\end{aligned}$$
+To deal with the calculation I've introduced a sum over matrices $d$ having the property that their rows sum up to the left multiplicities and their columns sum up to the right multiplicities:
+$$\begin{aligned}
+    \sum_kd_{jk}
+    &=
+    \ell_j
+    \\
+    \sum_jd_{jk}
+    &=
+    r_k
+\end{aligned}$$
+Saying much in general about these matrices seems hard (see [this answer][matrix-sums-se] to a Mathematics Stack Exchange question for a link to a review paper), but we can fairly easily enumerate all these matrices with a bit of Python (link to code in github repo).
+The factor $N_d$ counts the number of permutations $P_\pi$ that result in $d_{jk}$ $\langle j|$s matched up with $|k\rangle$s in the same tensor-product position, since each of these will give a factor of $U_{jk}$.
+We calculate $N_d$ by first finding how many ways to permute the groups of identical elements on the right among themselves (which is $r_0!r_1!r_2!$), and then how many ways to split each of the groups on the left into the appropriately sized groups matched with 0, 1, and 2 (which are the multinomial coefficients $\ell_j!/d_{j0}!d_{j1}!d_{j2}!$).
+Putting these together gives us
+$$\begin{aligned}
+    N_d
+    &=
+    \frac{\ell_0!\ell_1!\ell_2!r_0!r_1!_2!}{\prod_{j,k}(d_{jk})!}
+\end{aligned}$$
+and substituting that back into the unitary-matrix-element expression gives us
+$$\begin{aligned}
+    \langle\ell_0\ell_1\ell_2|U^{\otimes n}|r_0r_1r_2\rangle
+    &=
+    \sqrt{\ell_0!\ell_1!\ell_2!r_0!r_1r!_2!}
+    \sum_d\prod_{j,k}\frac{U_{j,k}^{d_{jk}}}
+    {d_{jk}!}
+\end{aligned}$$
 
-[hall2000]: http://arxiv.org/abs/math-ph/0005032
-[wiki-dual]: https://en.wikipedia.org/wiki/Dual_representation
-[github-irreps]: https://github.com/jarthurgross/irrep-codes-code
-[encoding-paper]: https://doi.org/10.1103/PhysRevLett.127.010504
-[encoding-self]: {{ relative }}docs/papers/gross_designing_2021.pdf
-[comp-over-inher]: https://en.wikipedia.org/wiki/Composition_over_inheritance
-[std-rep-cls]: https://github.com/jarthurgross/irrep-codes-code/blob/f97daad003d9e26fdd164862dcd9b0a9c0a71937/irrep_codes/su3/symm_tensor_prod.py#L95
-[dual-rep-cls]: https://github.com/jarthurgross/irrep-codes-code/blob/f97daad003d9e26fdd164862dcd9b0a9c0a71937/irrep_codes/su3/symm_tensor_prod.py#L149
-[tens-rep-cls]: https://github.com/jarthurgross/irrep-codes-code/blob/f97daad003d9e26fdd164862dcd9b0a9c0a71937/irrep_codes/su3/symm_tensor_prod.py#L185
-[abs-rep-cls]: https://github.com/jarthurgross/irrep-codes-code/blob/f97daad003d9e26fdd164862dcd9b0a9c0a71937/irrep_codes/su3/symm_tensor_prod.py#L12
-[apply-raise-method]: https://github.com/jarthurgross/irrep-codes-code/blob/f97daad003d9e26fdd164862dcd9b0a9c0a71937/irrep_codes/su3/symm_tensor_prod.py#L219
-[proj-method]: https://github.com/jarthurgross/irrep-codes-code/blob/f97daad003d9e26fdd164862dcd9b0a9c0a71937/irrep_codes/su3/symm_tensor_prod.py#L254
-[^threshold]: Numerically one must set a threshold below which one considers the singular values to be 0.
-[^adjoints]: I'm being a bit sloppy with the distinction between vectors $|\psi\rangle$ and dual vectors $\langle\psi|$, here, which I think I'm getting away with because the vectors are all real in the basis I've chosen to represent them. In reality, this matrix of linearly-independent rows should be thought of as a projection from the full tensor-product space to some abstract basis of the irrep, so using the right singular vectors would be most correct, since they're dual vectors.
+[matrix-sums-se]: https://math.stackexchange.com/a/10528
