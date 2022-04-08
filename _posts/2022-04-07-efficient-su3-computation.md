@@ -119,7 +119,7 @@ $$\begin{aligned}
     &=
     r_k
 \end{aligned}$$
-Saying much in general about these matrices seems hard (see [this answer][matrix-sums-se] to a Mathematics Stack Exchange question for a link to a review paper), but we can fairly easily enumerate all these matrices with a bit of Python (link to code in github repo).
+Saying much in general about these matrices seems hard (see [this answer][matrix-sums-se] to a Mathematics Stack Exchange question for a link to a review paper), but we can fairly easily enumerate all these matrices with a bit of Python, like I do in my recently-added function [`generate_row_col_sum_constrained_posint_matrices`][posint-fn].
 The factor $N_d$ counts the number of permutations $P_\pi$ that result in $d_{jk}$ $\langle j|$s matched up with $|k\rangle$s in the same tensor-product position, since each of these will give a factor of $U_{jk}$.
 We calculate $N_d$ by first finding how many ways to permute the groups of identical elements on the right among themselves (which is $r_0!r_1!r_2!$), and then how many ways to split each of the groups on the left into the appropriately sized groups matched with 0, 1, and 2 (which are the multinomial coefficients $\ell_j!/d_{j0}!d_{j1}!d_{j2}!$).
 Putting these together gives us
@@ -137,4 +137,12 @@ $$\begin{aligned}
     {d_{jk}!}
 \end{aligned}$$
 
+The code for calculating explicit matrices for the representative unitaries in the symmetric basis is now in my github repo (the slow code using the exponentially growing ambient space is in [`irrep_codes.su3.symm_tensor_prod.py`][slow] and the fast code using the intrinsic symmetric-space basis is in [`irrep_codes.su3.efficient_symm_rep.py`][fast]).
+Even for p=5, using the intrinsic basis makes a huge difference (cutting down the calculation time for a single matrix from 20 s to 90 ms).
+My code for the Lie-algebra elements, and for doing these calculations analytically using `sympy`, are still in a jupyter notebook, which I intend to push into the same repository.
+After finishing up that bit of code release, we'll be ready to try tackling a more intrinsic approach to the general (p, q) irreps.
+
 [matrix-sums-se]: https://math.stackexchange.com/a/10528
+[posint-fn]: https://github.com/jarthurgross/irrep-codes-code/blob/80a8671f17f4e4b0ee643b30d5708427a723c8a9/irrep_codes/su3/efficient_symm_rep.py#L13
+[slow]: https://github.com/jarthurgross/irrep-codes-code/blob/80a8671f17f4e4b0ee643b30d5708427a723c8a9/irrep_codes/su3/symm_tensor_prod.py
+[fast]: https://github.com/jarthurgross/irrep-codes-code/blob/80a8671f17f4e4b0ee643b30d5708427a723c8a9/irrep_codes/su3/efficient_symm_rep.py
