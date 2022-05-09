@@ -11,7 +11,7 @@ tags:
 {% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
 {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 
-In my [previous post]({{ relative }}2022/04/11/complex-matrix-visualization.html) I demonstrated using a variant of Hinton diagrams to visualize complex matrices at a glance.
+In my [previous post]({{ relative }}2022/04/09/complex-matrix-visualization.html) I demonstrated using a variant of Hinton diagrams to visualize complex matrices at a glance.
 In my opinion, these diagrams are far superior to `numpy` array printouts for 90% of the times I need to inspect a matrix (and would probably be superior in all cases if augmented by a tooltip that displayed value in decimal notation when hovering over a particular element).
 However, for the specific case of visualizing SU(3) representations I think we can do better.
 The use of a matrix to represent a linear map imposes an ordering on the basis vectors, which is fine for SU(2) where there is a natural ordering on the basis vectors, but is pretty arbitrary in the (3, 0) Fourier transform example I used in the previous post (300, 210, 120, 030, 201, 111, 021, 102, 012, 003).
