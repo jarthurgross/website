@@ -12,7 +12,7 @@ tags:
 {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 
 [Explorable explainations](https://explorabl.es/) are really cool.
-One of my first exposures to the genre was through [Michael Nielsen](https://michaelnielsen.org/), who has written extensively on "tools for thought" and exposed me to people like [Bret Voctor](http://worrydream.com/), [Nicky Case](https://ncase.me/), and [Amit Patel](https://www.redblobgames.com/), all of whom have "explorables" featured at the first link.
+One of my first exposures to the genre was through [Michael Nielsen](https://michaelnielsen.org/), who has written extensively on "tools for thought" and exposed me to people like [Bret Victor](http://worrydream.com/), [Nicky Case](https://ncase.me/), and [Amit Patel](https://www.redblobgames.com/), all of whom have "explorables" featured at the first link.
 I'd like to try my hand at making some of these, so I'm going to start posting some rough products and see how it goes.
 
 My first attempt aims to illustrate the concept of the [majorization](https://en.wikipedia.org/wiki/Majorization) relation between probability distributions.

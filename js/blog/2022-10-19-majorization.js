@@ -61,7 +61,7 @@ let triangle_points = [
   triplet_coords_to_xy(1, 0, 0, scale, offset),
   triplet_coords_to_xy(0, 1, 0, scale, offset),
   triplet_coords_to_xy(0, 0, 1, scale, offset),
-]
+];
 points_string = triangle_points.map((p) => `${p.x},${p.y}`).join(' ');
 
 let triangle = root.append('polygon').attr('points', points_string).attr('stroke', 'black').attr('fill', 'white');
