@@ -2,7 +2,7 @@ safe:        false
 #auto:        false
 #server:      false
 port: 4000
-baseurl:    /jekyll_demo
+baseurl:    /
 url: http://localhost:4000
 
 source:      .
