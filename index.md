@@ -9,7 +9,7 @@ title: Jonathan Gross's homepage
 Welcome!
 ========
 
-<img id='portrait' src='{{ relative }}images/jonathan-a-gross.jpg'
+<img id='portrait' src='{{ relative }}images/cropped-joshua-tree-portrait.jpg'
   alt='Portrait of Jonathan A. Gross' />
 
 My name is Jonathan A. Gross, and I am currently doing quantum-computing
